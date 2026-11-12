@@ -1,0 +1,15 @@
+{
+  "_howto": "Add any venue, college, museum or council calendar that offers an iCal (.ics) link. 'include' is an optional regex: only events whose title/description match are kept.",
+  "_example": {
+    "name": "Oxford Martin School",
+    "url": "https://talks.ox.ac.uk/api/collections/id/PASTE-COLLECTION-ID.ics",
+    "latitude": 51.7559, "longitude": -1.2553,
+    "venue": "Oxford Martin School",
+    "address": "34 Broad Street, OX1 3BD",
+    "summary": "Free public lecture",
+    "free": true,
+    "include": "public|lecture|book talk",
+    "score": 3
+  },
+  "ical": []
+}
