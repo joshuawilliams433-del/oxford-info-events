@@ -2,25 +2,15 @@
   {
     "id": "evensong",
     "name": "Choral Evensong, Christ Church Cathedral",
-    "latitude": 51.7499, "longitude": -1.2554,
+    "latitude": 51.7499,
+    "longitude": -1.2554,
     "venue": "Christ Church Cathedral",
     "address": "St Aldate's, OX1 1DP",
     "summary": "Hear one of the world's great cathedral choirs — free.",
     "details": "Evensong is a sung service open to everyone. Arrive 15 minutes early and tell the porters you're attending the service.",
-    "price": "Free", "free": true,
+    "price": "Free",
+    "free": true,
     "when": "Most evenings — check times",
     "website": "https://www.chch.ox.ac.uk/cathedral"
-  },
-  {
-    "id": "example-dated-event",
-    "name": "EXAMPLE — delete me: Carols by Candlelight",
-    "latitude": 51.7528, "longitude": -1.2535,
-    "venue": "University Church of St Mary",
-    "address": "High Street, OX1 4BJ",
-    "summary": "Shows how to add a one-off event with a date and time.",
-    "details": "Dated events disappear from the app automatically once they're over.",
-    "price": "£15",
-    "start": "2026-12-18T19:30", "end": "2026-12-18T21:00",
-    "website": "https://www.universitychurch.ox.ac.uk"
   }
 ]
