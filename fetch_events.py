@@ -48,7 +48,7 @@ QUALITY_VENUES = [
 
 # Things that aren't really events for visitors.
 JUNK = re.compile(
-    r"\b(parking|car park|upgrade|vip package|hospitality package|gift card|voucher|"
+    r"\b(club night|clubnight|silent disco|parking|car park|upgrade|vip package|hospitality package|gift card|voucher|"
     r"merch|add-?on|cloakroom|test event|private|members only|resale)\b", re.I)
 
 
@@ -130,6 +130,12 @@ def score(name, venue, has_image, has_desc, base=0):
     if JUNK.search(name or ""):
         s -= 100
     return s
+
+
+def venue_key(name):
+    """Treat sister rooms as one venue (e.g. 'O2 Academy2 Oxford' = 'O2 Academy Oxford')."""
+    v = re.sub(r"(\D)\d\b", r"\1", name.lower().strip())
+    return re.sub(r"\s+", " ", v)
 
 
 def within_radius(lat, lon):
@@ -331,8 +337,13 @@ def build():
             print(f"  ! skiddle: {ex}", file=sys.stderr)
     ics = from_ics_sources(start, end); events += ics; print(f"ical: {len(ics)}")
 
-    # Quality gate
-    events = [e for e in events if e["_score"] >= 0 and e["name"]]
+    # Quality gate: drop junk and late-night club nights (start 22:00–05:00)
+    def late_night(e):
+        if e["source"] == "curated" or not e.get("startsAt"):
+            return False
+        h = datetime.fromisoformat(e["startsAt"].replace("Z", "+00:00")).astimezone(LONDON).hour
+        return h >= 22 or h < 5
+    events = [e for e in events if e["_score"] >= 0 and e["name"] and not late_night(e)]
 
     # Collapse repeated shows (e.g. 20 nights of a panto) into one with a date range.
     groups = {}
@@ -355,7 +366,7 @@ def build():
     merged.sort(key=lambda e: (-e["_score"], e["startsAt"] or "9999"))
     per_venue, final = {}, []
     for e in merged:
-        v = (e.get("venue") or e["source"]).lower()
+        v = venue_key(e.get("venue") or e["source"])
         if e["source"] != "curated" and per_venue.get(v, 0) >= MAX_PER_VENUE:
             continue
         per_venue[v] = per_venue.get(v, 0) + 1
