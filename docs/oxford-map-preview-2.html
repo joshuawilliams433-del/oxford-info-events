@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Oxford Info · Map style preview</title>
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#38345a; --blue:#002147; --gold:#ffcf4a; --card:#ffffff; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body { margin:0; height:100%; font-family:'Fredoka',system-ui,sans-serif; color:var(--ink); background:#fff7e6; }
+  #map { position:fixed; inset:0; }
+  .soft { background:var(--card); border-radius:22px; box-shadow:0 6px 20px rgba(40,30,80,.14), 0 1px 3px rgba(40,30,80,.08); }
+
+  .top { position:fixed; top:calc(env(safe-area-inset-top) + 10px); left:12px; right:12px; display:flex; flex-direction:column; gap:8px; z-index:5; pointer-events:none; }
+  .title { align-self:flex-start; pointer-events:auto; padding:8px 14px; font-weight:700; font-size:16px; }
+  .title small { display:block; font-weight:500; font-size:11px; opacity:.6; }
+  .themes { display:flex; gap:6px; pointer-events:auto; }
+  .chip { border:none; border-radius:999px; padding:7px 14px; font:600 13px 'Fredoka',sans-serif; color:var(--ink); background:#fff; box-shadow:0 3px 10px rgba(40,30,80,.12); cursor:pointer; display:flex; align-items:center; gap:6px; }
+  .chip .sw { width:12px; height:12px; border-radius:50%; }
+  .chip.on { background:var(--ink); color:#fff; }
+
+  .rail { position:fixed; left:12px; top:50%; transform:translateY(-50%); z-index:5; display:flex; flex-direction:column; gap:4px; padding:8px 6px; border-radius:30px; }
+  .rail button { width:44px; height:44px; border-radius:50%; border:none; background:transparent; font-size:20px; cursor:pointer; display:grid; place-items:center; transition:background .2s, transform .15s; }
+  .rail button:active { transform:scale(.9); }
+  .rail button.on { background:var(--c); }
+  .rail .lbl { font-size:10px; font-weight:600; text-align:center; margin:-2px 0 4px; opacity:.6; }
+
+  .fabs { position:fixed; right:12px; bottom:calc(env(safe-area-inset-bottom) + 24px); z-index:5; display:flex; flex-direction:column; gap:10px; }
+  .fab { width:52px; height:52px; border-radius:50%; border:none; background:#fff; box-shadow:0 6px 18px rgba(40,30,80,.16); font-size:21px; cursor:pointer; display:grid; place-items:center; }
+  .fab.on { background:var(--gold); }
+
+  .dot { width:34px; height:34px; border-radius:50%; background:var(--c); border:3.5px solid #fff; display:grid; place-items:center; font-size:15px; cursor:pointer; transition:transform .18s cubic-bezier(.3,1.6,.5,1); box-shadow:0 4px 10px rgba(40,30,80,.28); }
+  .dot:hover, .dot.sel { transform:scale(1.28); }
+  .landmark { cursor:pointer; transition:transform .2s cubic-bezier(.3,1.6,.5,1); transform-origin:50% 100%; filter:drop-shadow(0 4px 6px rgba(40,30,80,.25)); }
+  .landmark:hover { transform:scale(1.12); }
+  .landmark .tag { position:absolute; left:50%; top:100%; transform:translateX(-50%); margin-top:3px; white-space:nowrap; background:#fff; border-radius:10px; padding:1px 8px; font-size:12px; font-weight:600; box-shadow:0 2px 6px rgba(40,30,80,.15); }
+
+  .me { position:relative; width:24px; height:24px; }
+  .me .glow { position:absolute; inset:-20px; border-radius:50%; background:rgba(74,140,255,.22); animation:pulse 2s ease-out infinite; }
+  .me .core { position:absolute; inset:0; border-radius:50%; background:#4a8cff; border:4px solid #fff; box-shadow:0 3px 8px rgba(40,30,80,.35); }
+  .me .face { display:none; }
+  @keyframes pulse { 0%{transform:scale(.4);opacity:1} 100%{transform:scale(1.3);opacity:0} }
+  .me .heading { position:absolute; left:50%; top:-15px; width:0; height:0; margin-left:-7px; border:7px solid transparent; border-bottom:11px solid #4a8cff; transform-origin:50% 27px; }
+
+  .card { position:fixed; left:12px; right:12px; bottom:calc(env(safe-area-inset-bottom) + 14px); z-index:6; padding:18px 18px 16px; transform:translateY(140%); transition:transform .4s cubic-bezier(.2,1.25,.4,1); max-width:520px; margin:0 auto; }
+  .card.show { transform:none; }
+  .card h3 { margin:6px 0 2px; font-size:21px; }
+  .card p { margin:6px 0 14px; font-size:15px; line-height:1.4; opacity:.75; }
+  .card .pill { display:inline-block; font-size:12px; font-weight:600; padding:3px 10px; border-radius:999px; background:var(--c); color:#fff; }
+  .card .row { display:flex; gap:8px; }
+  .card .btn { flex:1; border:none; border-radius:16px; padding:12px; font:600 15px 'Fredoka'; background:var(--blue); color:#fff; cursor:pointer; }
+  .card .btn.ghost { flex:0 0 54px; background:#f2eee6; color:var(--ink); }
+  .card .x { position:absolute; right:14px; top:12px; border:none; background:#f2eee6; width:30px; height:30px; border-radius:50%; font-size:17px; cursor:pointer; color:var(--ink); }
+
+  .toast { position:fixed; left:50%; top:calc(env(safe-area-inset-top) + 104px); transform:translateX(-50%); z-index:7; background:var(--ink); color:#fff; border-radius:14px; padding:8px 14px; font-size:13px; opacity:0; transition:opacity .3s; pointer-events:none; white-space:nowrap; }
+  .toast.show { opacity:.92; }
+  .maplibregl-ctrl-attrib { font-family:system-ui; font-size:10px; }
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="top">
+  <div class="title soft">Oxford Info<small>Map style preview · pinch &amp; zoom into the buildings</small></div>
+  <div class="themes" id="themes"></div>
+</div>
+
+<div class="rail soft" id="rail"></div>
+
+<div class="fabs">
+  <button class="fab" id="btn3d" title="3D">🏛️</button>
+  <button class="fab" id="btnMe" title="My location">📍</button>
+</div>
+
+<div class="card soft" id="card">
+  <button class="x" onclick="closeCard()">×</button>
+  <span class="pill" id="cPill"></span>
+  <h3 id="cTitle"></h3>
+  <p id="cText"></p>
+  <div class="row">
+    <button class="btn" id="cGo">Directions</button>
+    <button class="btn ghost">♡</button>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+// ------------------------------------------------------------------ themes
+// Clean cartoon palettes: soft land, bright parks & water, white roads, chunky buildings.
+const THEMES = {
+  sunny: { name:'Sunny', land:'#fff7e6', park:'#9ee08f', water:'#62cdf5', waterDeep:'#3fb6e8',
+           building:'#ffbf8f', buildingEdge:'#ec9a68', buildingTop:'#ffd0a8', shadow:'#ead9bd',
+           road:'#ffffff', roadEdge:'#ead8bb', major:'#ffd866', majorEdge:'#eab94a',
+           path:'#e5cfa6', label:'#38345a', halo:'#ffffff', ui:'#38345a' },
+  mint:  { name:'Mint', land:'#f0f7f1', park:'#a6e7b4', water:'#79d2f2', waterDeep:'#4dbde6',
+           building:'#c7d3ff', buildingEdge:'#98a8ec', buildingTop:'#d9e1ff', shadow:'#d8e6da',
+           road:'#ffffff', roadEdge:'#d4e2d6', major:'#ffe189', majorEdge:'#eec45a',
+           path:'#cfe0cf', label:'#2f3b55', halo:'#ffffff', ui:'#2f3b55' },
+  candy: { name:'Candy', land:'#fdf2f5', park:'#b5eaa0', water:'#86d6ff', waterDeep:'#5cc3f5',
+           building:'#ffc8dc', buildingEdge:'#f19bbd', buildingTop:'#ffdae7', shadow:'#efd9df',
+           road:'#ffffff', roadEdge:'#ecd5dd', major:'#ffd47e', majorEdge:'#efb655',
+           path:'#efd2db', label:'#4a3350', halo:'#ffffff', ui:'#4a3350' },
+};
+let theme = 'sunny';
+let is3D = false;
+
+const lineGeom = ['==', ['geometry-type'], 'LineString'];
+const MAJOR = ['motorway','trunk','primary','secondary'];
+const MINOR = ['tertiary','minor'];
+// Chunky, rounded widths that grow as you zoom.
+const w = (major, minor, service) => ['interpolate', ['exponential', 1.5], ['zoom'],
+  12, ['match', ['get','class'], MAJOR, major[0], MINOR, minor[0], service[0]],
+  15, ['match', ['get','class'], MAJOR, major[1], MINOR, minor[1], service[1]],
+  18, ['match', ['get','class'], MAJOR, major[2], MINOR, minor[2], service[2]]];
+const roadWidth = w([3, 12, 34], [1.2, 7, 24], [0, 3, 12]);
+const caseWidth = w([5, 15, 39], [2.2, 9.5, 28], [0, 4.5, 15]);
+
+function buildStyle(t) {
+  const roadFilter = (classes, minzoomClass) => ['all', lineGeom, ['in', ['get','class'], ['literal', classes]], ['!=', ['get','brunnel'], 'tunnel']];
+  const allRoads = [...MAJOR, ...MINOR, 'service'];
+  return {
+    version: 8,
+    glyphs: 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf',
+    sources: { omt: { type:'vector', url:'https://tiles.openfreemap.org/planet' } },
+    layers: [
+      { id:'bg', type:'background', paint:{ 'background-color': t.land } },
+
+      // One green for every kind of park, meadow, pitch or garden
+      { id:'green', type:'fill', source:'omt', 'source-layer':'landcover',
+        filter:['in',['get','class'],['literal',['grass','wood','farmland','wetland','scrub']]],
+        paint:{ 'fill-color': t.park } },
+      { id:'green2', type:'fill', source:'omt', 'source-layer':'landuse',
+        filter:['in',['get','class'],['literal',['pitch','park','garden','cemetery','playground','grass','recreation_ground','allotments']]],
+        paint:{ 'fill-color': t.park } },
+      { id:'park', type:'fill', source:'omt', 'source-layer':'park', paint:{ 'fill-color': t.park } },
+
+      // Water with a soft inner edge
+      { id:'water', type:'fill', source:'omt', 'source-layer':'water', paint:{ 'fill-color': t.water } },
+      { id:'waterway', type:'line', source:'omt', 'source-layer':'waterway',
+        layout:{ 'line-cap':'round','line-join':'round' },
+        paint:{ 'line-color': t.water, 'line-width':['interpolate',['linear'],['zoom'],12,2,16,7,18,14] } },
+
+      // Footpaths only when close
+      { id:'paths', type:'line', source:'omt', 'source-layer':'transportation', minzoom:16,
+        filter:['all', lineGeom, ['in',['get','class'],['literal',['path','track']]]],
+        layout:{ 'line-cap':'round','line-join':'round' },
+        paint:{ 'line-color': t.path, 'line-width':['interpolate',['linear'],['zoom'],16,1.5,18,4] } },
+
+      // Roads: soft edge + white (main roads sunny yellow)
+      { id:'road-edge', type:'line', source:'omt', 'source-layer':'transportation',
+        filter: roadFilter(allRoads),
+        layout:{ 'line-cap':'round','line-join':'round' },
+        paint:{ 'line-color':['match',['get','class'], MAJOR, t.majorEdge, t.roadEdge], 'line-width': caseWidth } },
+      { id:'road', type:'line', source:'omt', 'source-layer':'transportation',
+        filter: roadFilter(allRoads),
+        layout:{ 'line-cap':'round','line-join':'round' },
+        paint:{ 'line-color':['match',['get','class'], MAJOR, t.major, t.road], 'line-width': roadWidth } },
+
+      // Buildings: drop shadow, fill, gentle outline
+      { id:'building-shadow', type:'fill', source:'omt', 'source-layer':'building', minzoom:15,
+        paint:{ 'fill-color': t.shadow, 'fill-translate':['interpolate',['linear'],['zoom'],15,['literal',[1,1]],18,['literal',[4,4]]],
+                'fill-opacity':['interpolate',['linear'],['zoom'],15,0,15.6,1] } },
+      { id:'building', type:'fill', source:'omt', 'source-layer':'building', minzoom:15,
+        paint:{ 'fill-color': t.building, 'fill-opacity':['interpolate',['linear'],['zoom'],15,0,15.6,1] } },
+      { id:'building-edge', type:'line', source:'omt', 'source-layer':'building', minzoom:15.5,
+        layout:{ 'line-join':'round' },
+        paint:{ 'line-color': t.buildingEdge, 'line-width':['interpolate',['linear'],['zoom'],15.5,0.5,18,2] } },
+      { id:'building-3d', type:'fill-extrusion', source:'omt', 'source-layer':'building', minzoom:15.5,
+        layout:{ visibility: is3D ? 'visible' : 'none' },
+        paint:{ 'fill-extrusion-color': t.buildingTop,
+                'fill-extrusion-height':['interpolate',['linear'],['zoom'],15.5,0,16.5,['coalesce',['get','render_height'],9]],
+                'fill-extrusion-base':['coalesce',['get','render_min_height'],0],
+                'fill-extrusion-opacity':0.95 } },
+
+      // Labels: few, big, bold, with a thick white edge
+      { id:'water-label', type:'symbol', source:'omt', 'source-layer':'waterway', minzoom:14,
+        filter:['has','name'],
+        layout:{ 'symbol-placement':'line', 'text-field':['get','name'], 'text-font':['Noto Sans Bold'],
+                 'text-size':13, 'text-letter-spacing':0.1 },
+        paint:{ 'text-color': t.waterDeep, 'text-halo-color': t.halo, 'text-halo-width':2.5 } },
+      { id:'road-label', type:'symbol', source:'omt', 'source-layer':'transportation_name', minzoom:15.5,
+        filter:['in',['get','class'],['literal', allRoads]],
+        layout:{ 'symbol-placement':'line', 'text-field':['coalesce',['get','name:en'],['get','name']],
+                 'text-font':['Noto Sans Bold'], 'text-size':['interpolate',['linear'],['zoom'],15.5,12,18,16],
+                 'symbol-spacing':400 },
+        paint:{ 'text-color': t.label, 'text-halo-color': t.halo, 'text-halo-width':3 } },
+      { id:'area-label', type:'symbol', source:'omt', 'source-layer':'place', maxzoom:16,
+        filter:['in',['get','class'],['literal',['suburb','neighbourhood','quarter']]],
+        layout:{ 'text-field':['get','name'], 'text-font':['Noto Sans Bold'],
+                 'text-size':['interpolate',['linear'],['zoom'],12,13,15,17], 'text-letter-spacing':0.05 },
+        paint:{ 'text-color': t.label, 'text-opacity':0.75, 'text-halo-color': t.halo, 'text-halo-width':3 } },
+    ],
+  };
+}
+
+// ------------------------------------------------------------------ places
+const CATS = {
+  sights:{ c:'#4a6cf7', e:'🏛️', label:'Sights' },
+  food:  { c:'#ff8a3d', e:'🍴', label:'Food' },
+  free:  { c:'#22c08a', e:'🎁', label:'Free' },
+  events:{ c:'#a463f2', e:'🎭', label:'Events' },
+};
+const PLACES = [
+  ['Ashmolean Museum','free',51.7555,-1.2600,'Britain\'s first public museum (1683). Free entry.'],
+  ['Museum of Natural History','free',51.7586,-1.2556,'Dinosaurs and the famous Oxford dodo.'],
+  ['Pitt Rivers Museum','free',51.7589,-1.2552,'A cavern of curiosities from around the world.'],
+  ['Christ Church Meadow','free',51.7480,-1.2530,'Riverside walks with views of the spires.'],
+  ['University Parks','free',51.7620,-1.2510,'Lawns, punts and picnics by the Cherwell.'],
+  ['Covered Market','food',51.7520,-1.2570,'Historic market hall, opened in 1774.'],
+  ['Vaults & Garden','food',51.7528,-1.2535,'Café in a 14th-century vaulted room.'],
+  ['Quod','food',51.7525,-1.2522,'Brasserie on the High Street.'],
+  ['Branca','food',51.7595,-1.2655,'Stylish Italian in Jericho.'],
+  ['Head of the River','food',51.7465,-1.2565,'Riverside pub at Folly Bridge.'],
+  ['Choral Evensong','events',51.7499,-1.2551,'Free sung service at Christ Church Cathedral.'],
+  ['Christmas Market','events',51.7545,-1.2565,'Festive stalls on Broad Street.'],
+  ['Bodleian Library','sights',51.7540,-1.2544,'One of Europe\'s oldest libraries.'],
+  ['Magdalen College','sights',51.7522,-1.2475,'Deer park, cloisters and Addison\'s Walk.'],
+];
+
+// Hand-drawn style landmark icons (inline SVG)
+const INK = '#6b5877';
+const LANDMARKS = [
+  { name:'Radcliffe Camera', at:[-1.2540,51.7534], text:'Completed in 1749 — England\'s earliest circular library.', svg:`
+    <svg width="64" height="62" viewBox="0 0 64 62"><g stroke="${INK}" stroke-width="2" stroke-linejoin="round">
+    <rect x="30" y="2" width="4" height="9" fill="#fffdf6"/><path d="M14 30 Q32 6 50 30Z" fill="#9fb7d9"/>
+    <rect x="12" y="29" width="40" height="5" fill="#fffdf6"/><rect x="10" y="34" width="44" height="18" fill="#f7d8a0"/>
+    <path d="M17 36v14M24 36v14M32 36v14M40 36v14M47 36v14" stroke-width="2"/><rect x="6" y="52" width="52" height="7" rx="2" fill="#e3b468"/></g></svg>` },
+  { name:'Carfax Tower', at:[-1.2578,51.7519], text:'Climb 99 steps at the very centre of Oxford.', svg:`
+    <svg width="40" height="64" viewBox="0 0 40 64"><g stroke="${INK}" stroke-width="2" stroke-linejoin="round">
+    <path d="M8 14h24v-6h-4v3h-4v-3h-8v3h-4v-3H8Z" fill="#f7d8a0"/><rect x="8" y="14" width="24" height="44" fill="#f2c27a"/>
+    <circle cx="20" cy="25" r="5" fill="#fffdf6"/><path d="M20 22v3l2 1" stroke-width="1.8"/><path d="M16 40h8v18h-8z" fill="#8a5a3a"/></g></svg>` },
+  { name:'Tom Tower, Christ Church', at:[-1.2565,51.7501], text:'Great Tom rings 101 times every night at 21:05.', svg:`
+    <svg width="56" height="70" viewBox="0 0 56 70"><g stroke="${INK}" stroke-width="2" stroke-linejoin="round">
+    <path d="M28 4 L38 22 H18Z" fill="#9fb7d9"/><path d="M16 22h24v14H16z" fill="#f7d8a0"/><path d="M24 26h8v8h-8z" fill="#fffdf6"/>
+    <path d="M4 36h48v28H4z" fill="#f2c27a"/><path d="M22 64V48q6-8 12 0v16" fill="#8a5a3a"/>
+    <path d="M10 42v8M46 42v8" stroke-width="2"/></g></svg>` },
+  { name:'Bridge of Sighs', at:[-1.2537,51.7546], text:'Hertford College\'s skyway, completed in 1914.', svg:`
+    <svg width="66" height="44" viewBox="0 0 66 44"><g stroke="${INK}" stroke-width="2" stroke-linejoin="round">
+    <path d="M2 10h10v32H2zM54 10h10v32H54z" fill="#f2c27a"/>
+    <path d="M12 14h42v14q-21 12-42 0Z" fill="#f7d8a0"/><path d="M12 14q21-12 42 0" fill="#e3b468"/>
+    <path d="M20 18v6M28 18v7M38 18v7M46 18v6" stroke-width="2"/></g></svg>` },
+  { name:'Sheldonian Theatre', at:[-1.2551,51.7543], text:'Christopher Wren\'s first major building (1669).', svg:`
+    <svg width="58" height="56" viewBox="0 0 58 56"><g stroke="${INK}" stroke-width="2" stroke-linejoin="round">
+    <path d="M23 12h12v10H23z" fill="#fffdf6"/><path d="M21 12q8-12 16 0" fill="#9fb7d9"/>
+    <path d="M6 30q23-14 46 0" fill="#e3b468"/><path d="M6 30h46v20H6z" fill="#f7d8a0"/>
+    <path d="M14 34v12M24 34v12M34 34v12M44 34v12" stroke-width="2"/></g></svg>` },
+];
+
+// ------------------------------------------------------------------ map
+const map = new maplibregl.Map({
+  container:'map', style: buildStyle(THEMES[theme]),
+  center:[-1.2560, 51.7530], zoom:15.2, pitch:0, bearing:-12,
+  maxBounds:[[-1.40,51.68],[-1.12,51.83]], attributionControl:false,
+});
+map.addControl(new maplibregl.AttributionControl({ compact:true, customAttribution:'© OpenStreetMap contributors · OpenFreeMap' }), 'bottom-left');
+
+const active = new Set(Object.keys(CATS));
+const placeMarkers = [];
+let selectedEl = null;
+
+PLACES.forEach(([name, cat, lat, lon, text]) => {
+  const el = document.createElement('div');
+  el.className = 'dot'; el.style.setProperty('--c', CATS[cat].c); el.textContent = CATS[cat].e;
+  el.onclick = (ev) => { ev.stopPropagation(); select(el, name, cat, text, [lon, lat]); };
+  const m = new maplibregl.Marker({ element: el }).setLngLat([lon, lat]).addTo(map);
+  placeMarkers.push({ m, el, cat });
+});
+LANDMARKS.forEach(l => {
+  const el = document.createElement('div');
+  el.className = 'landmark'; el.innerHTML = l.svg + `<div class="tag">${l.name.split(',')[0]}</div>`;
+  el.onclick = (ev) => { ev.stopPropagation(); select(null, l.name, 'sights', l.text, l.at); };
+  new maplibregl.Marker({ element: el, anchor:'bottom' }).setLngLat(l.at).addTo(map);
+});
+
+function select(el, name, cat, text, at) {
+  if (selectedEl) selectedEl.classList.remove('sel');
+  selectedEl = el; if (el) el.classList.add('sel');
+  const card = document.getElementById('card');
+  card.style.setProperty('--c', CATS[cat].c);
+  document.getElementById('cPill').textContent = CATS[cat].label;
+  document.getElementById('cTitle').textContent = name;
+  document.getElementById('cText').textContent = text;
+  document.getElementById('cGo').onclick = () => drawRoute(at);
+  card.classList.add('show');
+  map.easeTo({ center:[at[0], at[1] - 0.0012], zoom: Math.max(map.getZoom(), 16), duration:700 });
+}
+function closeCard() {
+  document.getElementById('card').classList.remove('show');
+  if (selectedEl) selectedEl.classList.remove('sel');
+  selectedEl = null;
+}
+map.on('click', closeCard);
+
+// ------------------------------------------------------------------ route (illustrative)
+let routeData = null;
+function drawRoute(to) {
+  const from = me.getLngLat().toArray();
+  const mid = [(from[0]+to[0])/2 + 0.0006, (from[1]+to[1])/2 + 0.0004];
+  const data = { type:'Feature', geometry:{ type:'LineString', coordinates:[from, mid, to] } };
+  routeData = data;
+  if (map.getSource('route')) map.getSource('route').setData(data);
+  else addRouteLayers(data);
+  toast('In the app, this follows real walking streets');
+}
+function addRouteLayers(data) {
+  map.addSource('route', { type:'geojson', data });
+  map.addLayer({ id:'route-casing', type:'line', source:'route', layout:{'line-cap':'round','line-join':'round'},
+    paint:{ 'line-color': '#ffffff', 'line-width':11 } });
+  map.addLayer({ id:'route', type:'line', source:'route', layout:{'line-cap':'round','line-join':'round'},
+    paint:{ 'line-color':'#4a8cff', 'line-width':6 } });
+}
+
+// ------------------------------------------------------------------ live location
+const meEl = document.createElement('div');
+meEl.className = 'me';
+meEl.innerHTML = '<div class="glow"></div><div class="heading"></div><div class="core"></div><div class="face">🙂</div>';
+const me = new maplibregl.Marker({ element: meEl }).setLngLat([-1.2578, 51.7522]).addTo(map);
+let following = false, demoTimer = null;
+
+// Demo walk along Cornmarket → Broad Street when real GPS isn't in Oxford.
+const DEMO_PATH = [[-1.2578,51.7522],[-1.2580,51.7533],[-1.2582,51.7543],[-1.2575,51.7546],[-1.2562,51.7545],[-1.2551,51.7544],[-1.2540,51.7542]];
+function startDemoWalk() {
+  let i = 0, t = 0;
+  clearInterval(demoTimer);
+  demoTimer = setInterval(() => {
+    const a = DEMO_PATH[i], b = DEMO_PATH[(i+1) % DEMO_PATH.length];
+    t += 0.02;
+    if (t >= 1) { t = 0; i = (i+1) % (DEMO_PATH.length - 1); }
+    const p = [a[0] + (b[0]-a[0])*t, a[1] + (b[1]-a[1])*t];
+    const ang = Math.atan2(b[0]-a[0], b[1]-a[1]) * 180 / Math.PI;
+    meEl.querySelector('.heading').style.transform = `rotate(${ang}deg)`;
+    me.setLngLat(p);
+    if (following) map.easeTo({ center:p, duration:300 });
+  }, 120);
+}
+
+function inOxford(lon, lat) { return lon > -1.40 && lon < -1.12 && lat > 51.68 && lat < 51.83; }
+
+document.getElementById('btnMe').onclick = () => {
+  following = !following;
+  document.getElementById('btnMe').classList.toggle('on', following);
+  if (following) { map.easeTo({ center: me.getLngLat(), zoom: 17, duration: 800 }); }
+};
+
+if (navigator.geolocation) {
+  navigator.geolocation.watchPosition(pos => {
+    const { longitude:lon, latitude:lat, heading } = pos.coords;
+    if (inOxford(lon, lat)) {
+      clearInterval(demoTimer); demoTimer = null;
+      me.setLngLat([lon, lat]);
+      if (heading != null && !isNaN(heading)) meEl.querySelector('.heading').style.transform = `rotate(${heading}deg)`;
+      if (following) map.easeTo({ center:[lon, lat], duration:400 });
+    } else if (!demoTimer) { startDemoWalk(); toast('Not in Oxford — showing a demo walk'); }
+  }, () => { if (!demoTimer) startDemoWalk(); }, { enableHighAccuracy:true });
+}
+startDemoWalk();
+
+// ------------------------------------------------------------------ UI
+const themesEl = document.getElementById('themes');
+Object.entries(THEMES).forEach(([key, t]) => {
+  const b = document.createElement('button');
+  b.className = 'chip' + (key === theme ? ' on' : ''); b.innerHTML = `<span class="sw" style="background:${t.building}"></span>${t.name}`;
+  b.onclick = () => {
+    theme = key;
+    [...themesEl.children].forEach(c => c.classList.toggle('on', c === b));
+    const route = routeData;
+    map.setStyle(buildStyle(t)); document.documentElement.style.setProperty('--ink', t.ui);
+    map.once('styledata', () => { if (route) addRouteLayers(route); });
+    document.body.style.background = t.land;
+  };
+  themesEl.appendChild(b);
+});
+
+const rail = document.getElementById('rail');
+Object.entries(CATS).forEach(([key, c]) => {
+  const wrap = document.createElement('div');
+  const b = document.createElement('button');
+  b.className = 'on'; b.style.setProperty('--c', c.c + '55'); b.textContent = c.e; b.title = c.label;
+  b.onclick = () => {
+    active.has(key) ? active.delete(key) : active.add(key);
+    b.classList.toggle('on', active.has(key));
+    placeMarkers.forEach(p => p.el.style.display = active.has(p.cat) ? '' : 'none');
+  };
+  const l = document.createElement('div'); l.className = 'lbl'; l.textContent = c.label;
+  wrap.append(b, l); rail.appendChild(wrap);
+});
+
+document.getElementById('btn3d').onclick = () => {
+  is3D = !is3D;
+  document.getElementById('btn3d').classList.toggle('on', is3D);
+  if (map.getLayer('building-3d')) map.setLayoutProperty('building-3d', 'visibility', is3D ? 'visible' : 'none');
+  map.easeTo({ pitch: is3D ? 58 : 0, zoom: is3D ? Math.max(map.getZoom(), 16.6) : map.getZoom(), duration: 900 });
+};
+
+function toast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.classList.add('show');
+  clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 2600);
+}
+map.on('load', () => toast('Zoom in to see real building outlines ✨'));
+</script>
+</body>
+</html>
