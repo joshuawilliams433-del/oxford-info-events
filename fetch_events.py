@@ -385,5 +385,124 @@ def build():
     print(f"wrote {len(final)} events → {OUT}")
 
 
+# ----------------------------------------------------------------- restaurants, cafés & pubs (OpenStreetMap)
+
+PLACES_OUT = HERE / "docs" / "places.json"
+OSM_BBOX = (51.735, -1.295, 51.785, -1.205)   # south, west, north, east — central Oxford
+OVERPASS = "https://overpass-api.de/api/interpreter"
+
+KIND_LABEL = {"restaurant": "restaurant", "cafe": "café", "pub": "pub", "bar": "bar",
+              "fast_food": "takeaway", "ice_cream": "ice cream"}
+CUISINE_LABEL = {
+    "burger": "Burger", "pizza": "Pizza", "indian": "Indian", "italian": "Italian", "chinese": "Chinese",
+    "thai": "Thai", "japanese": "Japanese", "sushi": "Sushi", "ramen": "Ramen", "mexican": "Mexican",
+    "lebanese": "Lebanese", "turkish": "Turkish", "kebab": "Kebab", "greek": "Greek", "persian": "Persian",
+    "middle_eastern": "Middle Eastern", "french": "French", "spanish": "Spanish", "tapas": "Tapas",
+    "korean": "Korean", "vietnamese": "Vietnamese", "british": "British", "fish_and_chips": "Fish & chips",
+    "coffee_shop": "Coffee", "breakfast": "Breakfast", "brunch": "Brunch", "cake": "Cakes",
+    "ice_cream": "Ice cream", "dessert": "Desserts", "sandwich": "Sandwiches", "nepalese": "Nepalese",
+    "asian": "Asian", "american": "American", "steak_house": "Steak", "seafood": "Seafood",
+    "vegan": "Vegan", "vegetarian": "Vegetarian", "caribbean": "Caribbean", "african": "African",
+}
+
+
+def overpass(query):
+    req = Request(OVERPASS, data=urlencode({"data": query}).encode(),
+                  headers={"User-Agent": "OxfordInfoEvents/1.0 (daily build)"})
+    with urlopen(req, timeout=120) as r:
+        return json.load(r)
+
+
+def google_place_id(key, name, street, lat, lon):
+    """Text Search (IDs only) is free and unlimited; place IDs may be stored."""
+    body = json.dumps({
+        "textQuery": f"{name}, {street or ''} Oxford".replace(" ,", ","),
+        "pageSize": 1,
+        "locationBias": {"circle": {"center": {"latitude": lat, "longitude": lon}, "radius": 120.0}},
+    }).encode()
+    req = Request("https://places.googleapis.com/v1/places:searchText", data=body, headers={
+        "Content-Type": "application/json", "X-Goog-Api-Key": key, "X-Goog-FieldMask": "places.id",
+        "User-Agent": "OxfordInfoEvents/1.0"})
+    try:
+        with urlopen(req, timeout=20) as r:
+            places = json.load(r).get("places") or []
+            return places[0]["id"] if places else None
+    except Exception:
+        return None
+
+
+def build_places():
+    s, w, n, e = OSM_BBOX
+    q = f"""[out:json][timeout:90];
+    nwr["amenity"~"^(restaurant|cafe|pub|bar|fast_food|ice_cream)$"]["name"]({s},{w},{n},{e});
+    out center tags;"""
+    try:
+        data = overpass(q)
+    except Exception as ex:
+        print(f"  ! overpass: {ex}", file=sys.stderr)
+        return
+
+    # Keep previous Google IDs so we only look up new places.
+    old_ids = {}
+    if PLACES_OUT.exists():
+        try:
+            for p in json.loads(PLACES_OUT.read_text()).get("places", []):
+                if p.get("googlePlaceId"):
+                    old_ids[p["id"]] = p["googlePlaceId"]
+        except Exception:
+            pass
+    gkey = os.environ.get("GOOGLE_PLACES_KEY")
+
+    out = []
+    for el in data.get("elements", []):
+        t = el.get("tags", {})
+        name = (t.get("name") or "").strip()
+        lat = el.get("lat") or (el.get("center") or {}).get("lat")
+        lon = el.get("lon") or (el.get("center") or {}).get("lon")
+        if not name or lat is None or t.get("disused") or t.get("access") == "private":
+            continue
+        kind = t.get("amenity")
+        cuisines = [c.strip().lower() for c in (t.get("cuisine") or "").split(";") if c.strip()]
+        diets = [d for d in ("vegan", "vegetarian", "halal", "gluten_free")
+                 if t.get(f"diet:{d}") in ("yes", "only")]
+        street = t.get("addr:street")
+        address = ", ".join(x for x in [" ".join(x for x in [t.get("addr:housenumber"), street] if x),
+                                        t.get("addr:postcode")] if x) or "Oxford"
+        label = next((CUISINE_LABEL[c] for c in cuisines if c in CUISINE_LABEL), None)
+        kind_word = KIND_LABEL.get(kind, kind)
+        summary = " ".join(x for x in [label, kind_word] if x).capitalize()
+        if street:
+            summary += f" · {street}"
+        extras = []
+        if t.get("outdoor_seating") == "yes": extras.append("Outdoor seating")
+        if t.get("takeaway") in ("yes", "only"): extras.append("Takeaway")
+        if t.get("wheelchair") == "yes": extras.append("Wheelchair accessible")
+        if t.get("dog") == "yes": extras.append("Dog friendly")
+        if diets: extras.append(", ".join(d.replace("_", "-").capitalize() for d in diets) + " options")
+        pid = f"osm-{el['type'][0]}{el['id']}"
+        place = {
+            "id": pid, "name": name, "categories": ["food"],
+            "latitude": round(float(lat), 6), "longitude": round(float(lon), 6),
+            "summary": summary, "details": " · ".join(extras) or summary,
+            "address": address, "hours": t.get("opening_hours"),
+            "website": t.get("website") or t.get("contact:website"),
+            "phone": t.get("phone") or t.get("contact:phone"),
+            "kind": kind, "cuisines": cuisines, "diets": diets,
+            "chain": bool(t.get("brand")), "source": "osm",
+        }
+        gid = old_ids.get(pid)
+        if not gid and gkey:
+            gid = google_place_id(gkey, name, street, lat, lon)
+        if gid:
+            place["googlePlaceId"] = gid
+        out.append({k: v for k, v in place.items() if v not in (None, [], "")})
+
+    out.sort(key=lambda p: p["name"].lower())
+    PLACES_OUT.write_text(json.dumps({"updated": iso(datetime.now(timezone.utc)), "count": len(out),
+                                      "places": out}, ensure_ascii=False, indent=1))
+    print(f"wrote {len(out)} places → {PLACES_OUT}")
+
+
 if __name__ == "__main__":
     build()
+    build_places()
