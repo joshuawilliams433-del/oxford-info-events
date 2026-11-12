@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T21:30:57Z",
- "count": 25,
+ "updated": "2026-11-12T21:33:08Z",
+ "count": 19,
  "events": [
   {
    "id": "example-dated-event",
@@ -58,24 +58,6 @@
    "source": "ticketmaster"
   },
   {
-   "id": "ev-ae010800de0d",
-   "name": "Indie Fridays",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Pop · O2 Academy Oxford",
-   "details": "Last Entry: 2am. Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/indie-fridays-oxford-13-11-2026/event/3E00651ACC673825",
-   "when": "Fri 13 Nov · 23:00",
-   "startsAt": "2026-11-13T23:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
-  },
-  {
    "id": "ev-f65a7a2c39de",
    "name": "Royal Blood - ALBUM LAUNCH OUTSTORE: LIVE PERFORMANCE",
    "categories": [
@@ -90,24 +72,6 @@
    "when": "Sat 14 Nov · 18:00",
    "startsAt": "2026-11-14T18:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/2cb/616e9eb5-5ef1-456b-a77d-b258910172cb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-5b880cccab25",
-   "name": "Fishies Week 9",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Dance/Electronic · O2 Academy Oxford",
-   "details": "LAST ENTRY 1AM. Valid Brookes Student ID Required. Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/fishies-week-9-oxford-18-11-2026/event/3E0064EEC5E61F3E",
-   "when": "Wed 18 Nov · 23:00",
-   "startsAt": "2026-11-18T23:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "O2 Academy Oxford",
    "source": "ticketmaster"
   },
@@ -148,6 +112,24 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-87ec7218e758",
+   "name": "Reverend & The Makers",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/reverend-the-makers-oxford-21-11-2026/event/3E006490DACD4E39",
+   "when": "Sat 21 Nov · 18:30",
+   "startsAt": "2026-11-21T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/5ac/6d9489c3-9db4-4b1c-b2c8-68447ab545ac_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-98634e481505",
    "name": "Gareth Malone - Sing-A-Long-A-Gareth: At The Movies",
    "categories": [
@@ -181,6 +163,24 @@
    "startsAt": "2026-11-26T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "Old Fire Station",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-05b1bc91eb1b",
+   "name": "Big Country + Evan Peter's Alarm",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/big-country-evan-peters-alarm-oxford-27-11-2026/event/3E0064ABCBD337C7",
+   "when": "Fri 27 Nov · 18:30",
+   "startsAt": "2026-11-27T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/959/a6236c28-2b82-4439-a91b-9e751764f959_SOURCE",
+   "venue": "O2 Academy Oxford",
    "source": "ticketmaster"
   },
   {
@@ -275,60 +275,6 @@
    "source": "ticketmaster"
   },
   {
-   "id": "ev-89991b158995",
-   "name": "Chasing Abbey",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Dance/Electronic · O2 Academy2 Oxford",
-   "details": "With support from: Miranda Faul. Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/chasing-abbey-oxford-13-11-2026/event/3E006494E3384E1A",
-   "when": "Fri 13 Nov · 18:30",
-   "startsAt": "2026-11-13T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/2c5/82a5c2eb-25a5-4cad-a515-1ee3d8b242c5_SOURCE",
-   "venue": "O2 Academy2 Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-81b3a03c2ba6",
-   "name": "Definitely Mightbe (A Tribute to Oasis)",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "O2 Academy2 Oxford",
-   "details": "With support from: The Replicators (Britpop Tribute). Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/definitely-mightbe-a-tribute-to-oasis-oxford-14-11-2026/event/3E00642EB3083D09",
-   "when": "Sat 14 Nov · 18:30",
-   "startsAt": "2026-11-14T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/74d/aabfa618-a206-4578-a502-f17ff22ec74d_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy2 Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-288ab2714c01",
-   "name": "Obsessed",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy2 Oxford",
-   "details": "A new club night launching in Oxford brought to you by the Indie Fridays & Boogaloo team. Music policy: Alt Pop. Indie Dance & New Club Classics. Expect music from the likes of Billie Eilish, CamelPhat, Chappell Roan, Charli XCX Chase & Status, Disclosure, Dua Lipa, Fred Again, LF System, Lorde, Olivia Rodrigo, RAYE, Sabrina Carpenter, Sam Fender, Sonny Federa, Taylor Swift, The 1975, Two Door Cinema Club, Wolf Alice, PLUS MANY MORE... Follow us on Instagram: @ObsessedOxford Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or…",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/obsessed-oxford-14-11-2026/event/3E0064DAC5BD711B",
-   "when": "Sat 14 Nov · 23:00",
-   "startsAt": "2026-11-14T23:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy2 Oxford",
-   "source": "ticketmaster"
-  },
-  {
    "id": "ev-adc2a1660246",
    "name": "Dermot Henry",
    "categories": [
@@ -344,60 +290,6 @@
    "startsAt": "2026-11-15T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/5d9/402daee4-e472-444d-bdac-0e7c6d7c65d9_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "The Bullingdon ",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-3da967a79e93",
-   "name": "Corto.Alto",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Jazz · O2 Academy2 Oxford",
-   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/cortoalto-oxford-20-11-2026/event/3E0064AC92B620E8",
-   "when": "Fri 20 Nov · 18:30",
-   "startsAt": "2026-11-20T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/97e/ec26f238-1eb2-4c90-a8fc-d4d842c3a97e_SOURCE",
-   "venue": "O2 Academy2 Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-cb91b88b86bd",
-   "name": "The Rolling People",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy2 Oxford",
-   "details": "With Support from: Better Heaven Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/the-rolling-people-oxford-25-11-2026/event/3E006528D23142E5",
-   "when": "Wed 25 Nov · 18:30",
-   "startsAt": "2026-11-25T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy2 Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-d8058c59862a",
-   "name": "The Guest List",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy2 Oxford",
-   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/the-guest-list-oxford-27-11-2026/event/3E006495C0F346B2",
-   "when": "Fri 27 Nov · 18:30",
-   "startsAt": "2026-11-27T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/ecd/b4805cbb-554e-4f5a-bc22-0eab27c1cecd_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy2 Oxford",
    "source": "ticketmaster"
   },
   {
