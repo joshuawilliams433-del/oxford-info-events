@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T19:48:53Z",
- "count": 2,
+ "updated": "2026-11-12T21:30:57Z",
+ "count": 25,
  "events": [
   {
    "id": "example-dated-event",
@@ -38,6 +38,421 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
+  },
+  {
+   "id": "ev-23555b3dfc30",
+   "name": "The Rifles",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Main Support - Joe Carnall Opener Support - Nico Cann Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/the-rifles-oxford-13-11-2026/event/3E0064744A1D918B",
+   "when": "Fri 13 Nov · 18:30",
+   "startsAt": "2026-11-13T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/d2e/698f3a93-88bc-4fc7-bd8b-ef7b6c7a4d2e_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-ae010800de0d",
+   "name": "Indie Fridays",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Pop · O2 Academy Oxford",
+   "details": "Last Entry: 2am. Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/indie-fridays-oxford-13-11-2026/event/3E00651ACC673825",
+   "when": "Fri 13 Nov · 23:00",
+   "startsAt": "2026-11-13T23:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/4f2/0109888a-61b5-4525-8432-b026ef04f4f2_105631_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-f65a7a2c39de",
+   "name": "Royal Blood - ALBUM LAUNCH OUTSTORE: LIVE PERFORMANCE",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/royal-blood-album-launch-outstore-live-oxford-14-11-2026/event/3E00653692FD1CDF",
+   "when": "Sat 14 Nov · 18:00",
+   "startsAt": "2026-11-14T18:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/2cb/616e9eb5-5ef1-456b-a77d-b258910172cb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-5b880cccab25",
+   "name": "Fishies Week 9",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Dance/Electronic · O2 Academy Oxford",
+   "details": "LAST ENTRY 1AM. Valid Brookes Student ID Required. Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/fishies-week-9-oxford-18-11-2026/event/3E0064EEC5E61F3E",
+   "when": "Wed 18 Nov · 23:00",
+   "startsAt": "2026-11-18T23:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/df8/81eadad8-4449-412e-a2b1-3d8bbb78edf8_106181_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-4530b77294d3",
+   "name": "Little Angels Big Bad and Back Tour",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Metal · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/little-angels-big-bad-and-back-oxford-19-11-2026/event/3E006436E50E5884",
+   "when": "Thu 19 Nov · 19:00",
+   "startsAt": "2026-11-19T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/d82/4a58c6a0-f206-4e65-88e4-6d902676dd82_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-adbc5952488c",
+   "name": "Yard Act",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height - 28.7cm Width - 21cm Depth - 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/yard-act-oxford-20-11-2026/event/3E0064A1CAC53D6F",
+   "when": "Fri 20 Nov · 18:30",
+   "startsAt": "2026-11-20T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/0c2/d3897812-293b-4eec-807e-b53f6259e0c2_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-98634e481505",
+   "name": "Gareth Malone - Sing-A-Long-A-Gareth: At The Movies",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Classical · New Theatre Oxford",
+   "details": "Door Time - 15:00 Show Time - 16:00",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/gareth-malone-singalongagareth-at-the-movies-oxford-22-11-2026/event/360064CAA3242BAB",
+   "when": "Sun 22 Nov · 16:00",
+   "startsAt": "2026-11-22T16:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/4bb/39420dde-7f07-4dbc-b826-91d5102094bb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-c1a377090986",
+   "name": "Skids + Theatre Of Hate",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.753554,
+   "longitude": -1.262474,
+   "summary": "Rock · Old Fire Station",
+   "details": "Two era defining artists SKIDS &amp; THEATRE OF HATE come together this autumn for an explosive UK co-headline tour.SKIDSThe Skids formed in 1977 in their hometown of Dunfermline, Scotland by Richard Jobson, Stuart Adamson, Bill Simpson &amp; Tom Kellichan. After releasing an independent single the band were played by John Peel, supported The Clash in concert and then were signed to Virgin Records in 1978. Their first singles were \"Sweet Surburbia\", \"The Saints are Coming\" and \"Into the Valley\" - the latter reaching the UK Top Ten in early 1979.The current Skids line up see's the lineup…",
+   "address": "40 George Street, OX1 2AQ",
+   "website": "https://www.universe.com/events/skids-theatre-of-hate-tickets-15DFQR?ref=ticketmaster",
+   "when": "Thu 26 Nov · 19:00",
+   "startsAt": "2026-11-26T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "Old Fire Station",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-0324c3e2cad9",
+   "name": "Greg Davies - Full Fat Legend",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Comedy · New Theatre Oxford",
+   "details": "START: 19:30",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/greg-davies-full-fat-legend-oxford-12-12-2026/event/36006385C9FDA133",
+   "when": "Sat 12 Dec · 19:30",
+   "startsAt": "2026-12-12T19:30:00Z",
+   "endsAt": "2026-12-13T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/31c/955b427d-658e-40fc-8ec3-69adb7a0a31c_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-bd42c2931a3d",
+   "name": "Bellowhead",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Folk · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/bellowhead-oxford-30-11-2026/event/360063749B995D94",
+   "when": "Mon 30 Nov · 19:00",
+   "startsAt": "2026-11-30T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/dd2/546416f4-af1a-4c82-b2c5-0075fe63fdd2_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-714d278e77bf",
+   "name": "The Holiday: The Film with Live orchestra",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Music · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/the-holiday-the-film-with-live-oxford-01-12-2026/event/3600646BF90FB083",
+   "when": "Tue 1 Dec · 19:30",
+   "startsAt": "2026-12-01T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/aae/b503db1a-c908-473b-a218-96d123cd5aae_105501_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-ebd976e40902",
+   "name": "The Australian Pink Floyd",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Rock · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/the-australian-pink-floyd-oxford-02-12-2026/event/360063839EFC7875",
+   "when": "Wed 2 Dec · 19:00",
+   "startsAt": "2026-12-02T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/f78/562b9581-2e01-4ce9-9d01-a16d3736ff78_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-c54b4ee38b39",
+   "name": "Level 42",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Rock · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/level-42-oxford-03-12-2026/event/36006454AAF45D36",
+   "when": "Thu 3 Dec · 19:00",
+   "startsAt": "2026-12-03T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/db5/eb32869f-be25-4a91-898f-2ee648976db5_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-89991b158995",
+   "name": "Chasing Abbey",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Dance/Electronic · O2 Academy2 Oxford",
+   "details": "With support from: Miranda Faul. Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/chasing-abbey-oxford-13-11-2026/event/3E006494E3384E1A",
+   "when": "Fri 13 Nov · 18:30",
+   "startsAt": "2026-11-13T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/2c5/82a5c2eb-25a5-4cad-a515-1ee3d8b242c5_SOURCE",
+   "venue": "O2 Academy2 Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-81b3a03c2ba6",
+   "name": "Definitely Mightbe (A Tribute to Oasis)",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "O2 Academy2 Oxford",
+   "details": "With support from: The Replicators (Britpop Tribute). Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/definitely-mightbe-a-tribute-to-oasis-oxford-14-11-2026/event/3E00642EB3083D09",
+   "when": "Sat 14 Nov · 18:30",
+   "startsAt": "2026-11-14T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/74d/aabfa618-a206-4578-a502-f17ff22ec74d_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy2 Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-288ab2714c01",
+   "name": "Obsessed",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy2 Oxford",
+   "details": "A new club night launching in Oxford brought to you by the Indie Fridays & Boogaloo team. Music policy: Alt Pop. Indie Dance & New Club Classics. Expect music from the likes of Billie Eilish, CamelPhat, Chappell Roan, Charli XCX Chase & Status, Disclosure, Dua Lipa, Fred Again, LF System, Lorde, Olivia Rodrigo, RAYE, Sabrina Carpenter, Sam Fender, Sonny Federa, Taylor Swift, The 1975, Two Door Cinema Club, Wolf Alice, PLUS MANY MORE... Follow us on Instagram: @ObsessedOxford Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or…",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/obsessed-oxford-14-11-2026/event/3E0064DAC5BD711B",
+   "when": "Sat 14 Nov · 23:00",
+   "startsAt": "2026-11-14T23:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy2 Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-adc2a1660246",
+   "name": "Dermot Henry",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747153,
+   "longitude": -1.235535,
+   "summary": "Rock · The Bullingdon ",
+   "details": "Plus support from TESNI",
+   "address": "162 Cowley Road  , OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/dermot-henry-oxford-15-11-2026/event/1F006511ACFD3BE6",
+   "when": "Sun 15 Nov · 19:00",
+   "startsAt": "2026-11-15T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/5d9/402daee4-e472-444d-bdac-0e7c6d7c65d9_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "The Bullingdon ",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-3da967a79e93",
+   "name": "Corto.Alto",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Jazz · O2 Academy2 Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/cortoalto-oxford-20-11-2026/event/3E0064AC92B620E8",
+   "when": "Fri 20 Nov · 18:30",
+   "startsAt": "2026-11-20T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/97e/ec26f238-1eb2-4c90-a8fc-d4d842c3a97e_SOURCE",
+   "venue": "O2 Academy2 Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-cb91b88b86bd",
+   "name": "The Rolling People",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy2 Oxford",
+   "details": "With Support from: Better Heaven Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/the-rolling-people-oxford-25-11-2026/event/3E006528D23142E5",
+   "when": "Wed 25 Nov · 18:30",
+   "startsAt": "2026-11-25T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy2 Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-d8058c59862a",
+   "name": "The Guest List",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy2 Oxford",
+   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/the-guest-list-oxford-27-11-2026/event/3E006495C0F346B2",
+   "when": "Fri 27 Nov · 18:30",
+   "startsAt": "2026-11-27T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/ecd/b4805cbb-554e-4f5a-bc22-0eab27c1cecd_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy2 Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-196c079de507",
+   "name": "Skids + Theatre Of Hate",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747153,
+   "longitude": -1.235535,
+   "summary": "Rock · The Bullingdon ",
+   "details": "Two era defining artists SKIDS &amp; THEATRE OF HATE come together this autumn for an explosive UK co-headline tour.SKIDSThe Skids formed in 1977 in their hometown of Dunfermline, Scotland by Richard Jobson, Stuart Adamson, Bill Simpson &amp; Tom Kellichan. After releasing an independent single the band were played by John Peel, supported The Clash in concert and then were signed to Virgin Records in 1978. Their first singles were \"Sweet Surburbia\", \"The Saints are Coming\" and \"Into the Valley\" - the latter reaching the UK Top Ten in early 1979.The current Skids line up see's the lineup…",
+   "address": "162 Cowley Road  , OX4 1UE",
+   "website": "https://www.universe.com/events/skids-theatre-of-hate-tickets-MLR0GZ?ref=ticketmaster",
+   "when": "Thu 3 Dec · 19:00",
+   "startsAt": "2026-12-03T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "The Bullingdon ",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-0d29c86c2cc5",
+   "name": "Big Special",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747153,
+   "longitude": -1.235535,
+   "summary": "Rock · The Bullingdon ",
+   "details": "Supporting acts: - The Hotel Joy - Bradley Taylor",
+   "address": "162 Cowley Road  , OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/big-special-oxford-08-12-2026/event/1F0064C4E957B84E",
+   "when": "Tue 8 Dec · 19:00",
+   "startsAt": "2026-12-08T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/de6/8d25248c-fe38-4cba-8cf3-63f37f852de6_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "The Bullingdon ",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-07ecc9be7a45",
+   "name": "The North",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747153,
+   "longitude": -1.235535,
+   "summary": "Rock · The Bullingdon ",
+   "details": "Live at The Bullingdon .",
+   "address": "162 Cowley Road  , OX4 1UE",
+   "website": "https://www.ticketweb.uk/event/the-north-the-bullingdon-tickets/14992243?REFERRAL_ID=tmfeed",
+   "when": "Tue 17 Nov · 19:00",
+   "startsAt": "2026-11-17T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/c00/1437904b-93cd-4ce3-a8b3-0ec956358c00_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "The Bullingdon ",
+   "source": "ticketmaster"
   }
  ]
 }
