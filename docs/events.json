@@ -1,26 +1,7 @@
 {
- "updated": "2026-11-12T21:39:05Z",
- "count": 19,
+ "updated": "2026-11-12T21:41:05Z",
+ "count": 18,
  "events": [
-  {
-   "id": "example-dated-event",
-   "name": "EXAMPLE — delete me: Carols by Candlelight",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7528,
-   "longitude": -1.2535,
-   "summary": "Shows how to add a one-off event with a date and time.",
-   "details": "Dated events disappear from the app automatically once they're over.",
-   "address": "High Street, OX1 4BJ",
-   "price": "£15",
-   "website": "https://www.universitychurch.ox.ac.uk",
-   "when": "Fri 18 Dec · 19:30",
-   "startsAt": "2026-12-18T19:30:00Z",
-   "endsAt": "2026-12-18T21:00:00Z",
-   "venue": "University Church of St Mary",
-   "source": "curated"
-  },
   {
    "id": "evensong",
    "name": "Choral Evensong, Christ Church Cathedral",
