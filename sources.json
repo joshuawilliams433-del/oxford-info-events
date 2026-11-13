@@ -1,15 +1,17 @@
 {
-  "_howto": "Add any venue, college, museum or council calendar that offers an iCal (.ics) link. 'include' is an optional regex: only events whose title/description match are kept.",
-  "_example": {
-    "name": "Oxford Martin School",
-    "url": "https://talks.ox.ac.uk/api/collections/id/PASTE-COLLECTION-ID.ics",
-    "latitude": 51.7559, "longitude": -1.2553,
-    "venue": "Oxford Martin School",
-    "address": "34 Broad Street, OX1 3BD",
-    "summary": "Free public lecture",
-    "free": true,
-    "include": "public|lecture|book talk",
-    "score": 3
-  },
-  "ical": []
+  "_howto": "Add any venue, college, museum or listings calendar that offers an iCal (.ics) link. 'geocode': true places each event on the map from its written location. 'include' is an optional regex filter.",
+  "ical": [
+    {
+      "name": "The Oxford Magazine",
+      "url": "https://theoxfordmagazine.com/events/?ical=1",
+      "geocode": true,
+      "score": 3
+    },
+    {
+      "name": "The Oxford Magazine (more)",
+      "url": "https://theoxfordmagazine.com/events/list/page/2/?ical=1",
+      "geocode": true,
+      "score": 3
+    }
+  ]
 }
