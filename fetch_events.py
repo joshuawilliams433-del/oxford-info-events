@@ -31,9 +31,9 @@ LONDON = ZoneInfo("Europe/London")
 
 OXFORD_LAT, OXFORD_LON = 51.7520, -1.2577
 RADIUS_KM = 6
-DAYS_AHEAD = 45
-MAX_EVENTS = 80
-MAX_PER_VENUE = 6            # stops one venue flooding the map
+DAYS_AHEAD = 60
+MAX_EVENTS = 150
+MAX_PER_VENUE = 8            # stops one venue flooding the map
 MAX_DATES_PER_SHOW = 1       # a 3-week panto shows once, with a date range
 
 # Venues that reliably put on quality events get a boost.
@@ -43,8 +43,60 @@ QUALITY_VENUES = [
     "north wall", "old fire station", "ashmolean", "pitt rivers",
     "natural history", "christ church", "bodleian", "weston library",
     "university church", "town hall", "jam factory", "cellar",
-    "modern art oxford", "story museum", "blenheim",
+    "modern art oxford", "story museum", "blenheim", "schwarzman", "kassam", "playhouse",
 ]
+
+# Known venues, so calendar events with only a written location can be placed on the map.
+VENUES = {
+    "oxford playhouse": (51.7553, -1.2603), "new theatre": (51.7536, -1.2617),
+    "sheldonian": (51.7543, -1.2551), "town hall": (51.7515, -1.2575),
+    "o2 academy": (51.7488, -1.2402), "north wall": (51.7699, -1.2700),
+    "pegasus theatre": (51.7468, -1.2366), "old fire station": (51.7533, -1.2620),
+    "ashmolean": (51.7555, -1.2600), "story museum": (51.7505, -1.2575),
+    "holywell music room": (51.7552, -1.2522), "jacqueline du pr": (51.7577, -1.2423),
+    "schwarzman": (51.7608, -1.2626), "botanic garden": (51.7520, -1.2470),
+    "pitt rivers": (51.7589, -1.2552), "natural history": (51.7586, -1.2556),
+    "weston library": (51.7547, -1.2555), "bodleian": (51.7540, -1.2544),
+    "christ church": (51.7500, -1.2560), "university church": (51.7528, -1.2535),
+    "st mary the virgin": (51.7528, -1.2535), "modern art oxford": (51.7515, -1.2593),
+    "oxford castle": (51.7517, -1.2630), "kassam": (51.7164, -1.2081),
+    "bullingdon": (51.7476, -1.2368), "jericho tavern": (51.7598, -1.2662),
+    "magdalen college": (51.7522, -1.2475), "new college": (51.7543, -1.2517),
+    "history of science museum": (51.7543, -1.2552), "covered market": (51.7520, -1.2570),
+    "westgate": (51.7499, -1.2600), "gloucester green": (51.7535, -1.2627),
+    "cowley road": (51.7470, -1.2370), "east oxford community centre": (51.7476, -1.2363),
+    "university parks": (51.7620, -1.2510), "port meadow": (51.7690, -1.2780),
+    "blackwell": (51.7546, -1.2546), "examination schools": (51.7520, -1.2510),
+    "st john's college": (51.7564, -1.2589), "exeter college": (51.7537, -1.2563),
+    "keble": (51.7589, -1.2577), "mathematical institute": (51.7604, -1.2632),
+}
+
+GEOCACHE = HERE / "docs" / "geocache.json"
+
+
+def place_for_location(text, geocache):
+    """Find coordinates for a written location: known venue first, then OpenStreetMap search."""
+    if not text:
+        return None
+    low = text.lower()
+    for name, (lat, lon) in VENUES.items():
+        if name in low:
+            return lat, lon
+    if text in geocache:
+        return tuple(geocache[text]) if geocache[text] else None
+    result = None
+    try:
+        import time
+        time.sleep(1.1)   # Nominatim usage policy: max 1 request per second
+        q = urlencode({"q": text if "oxford" in low else text + ", Oxford", "format": "json", "limit": 1,
+                       "viewbox": "-1.33,51.80,-1.17,51.71", "bounded": 1})
+        hits = http_json("https://nominatim.openstreetmap.org/search?" + q)
+        if hits:
+            result = (float(hits[0]["lat"]), float(hits[0]["lon"]))
+    except Exception:
+        pass
+    geocache[text] = list(result) if result else None
+    return result
 
 # Things that aren't really events for visitors.
 JUNK = re.compile(
@@ -172,7 +224,7 @@ def from_ticketmaster(key, start, end):
         "countryCode": "GB", "locale": "*", "size": 200, "sort": "date,asc",
         "startDateTime": start.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "endDateTime": end.strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "segmentName": "Music,Arts & Theatre,Miscellaneous,Film",
+        "segmentName": "Music,Arts & Theatre,Miscellaneous,Film,Sports",
     }
     data = http_json("https://app.ticketmaster.com/discovery/v2/events.json?" + urlencode(params))
     out = []
@@ -284,6 +336,7 @@ def from_ics_sources(start, end):
     path = HERE / "sources.json"
     if not path.exists():
         return []
+    geocache = json.loads(GEOCACHE.read_text()) if GEOCACHE.exists() else {}
     out = []
     for src in json.loads(path.read_text()).get("ical", []):
         try:
@@ -303,16 +356,35 @@ def from_ics_sources(start, end):
             if not (start <= st.astimezone(timezone.utc) <= end):
                 continue
             desc = clean(ev.get("DESCRIPTION", ("", ""))[0])
+            location = ev.get("LOCATION", ("",))[0].strip()
+            if src.get("geocode"):
+                found = place_for_location(location, geocache)
+                if not found:
+                    continue
+                lat, lon = found
+                venue_name = location.split(",")[0].strip() or src["name"]
+            else:
+                lat, lon = src["latitude"], src["longitude"]
+                venue_name = src.get("venue", src["name"])
+            if not within_radius(lat, lon):
+                continue
+            image = None
+            for key in ("ATTACH", "IMAGE"):
+                if key in ev and ev[key][0].startswith("http"):
+                    image = ev[key][0]
             out.append(event(
                 id=make_id("ics", src["name"], ev.get("UID", (title,))[0], st),
-                name=title, lat=src["latitude"], lon=src["longitude"],
-                summary=src.get("summary", src["name"]), details=desc or src.get("summary", ""),
-                venue=src.get("venue", src["name"]),
+                name=title, lat=lat, lon=lon, image=image,
+                summary=venue_name if src.get("geocode") else src.get("summary", src["name"]),
+                details=desc or src.get("summary", ""),
+                venue=venue_name,
                 address=ev.get("LOCATION", (src.get("address", ""),))[0],
                 price=src.get("price"), url=ev.get("URL", (src.get("website"),))[0],
                 free=src.get("free", False), start=st, end=en,
                 when=nice_when(st, en, all_day), source=src["name"],
-                score=src.get("score", 2) + (1 if desc else 0)))
+                score=src.get("score", 2) + (1 if desc else 0) + score(title, venue_name, bool(image), False)))
+    GEOCACHE.parent.mkdir(parents=True, exist_ok=True)
+    GEOCACHE.write_text(json.dumps(geocache, ensure_ascii=False, indent=0))
     return out
 
 
