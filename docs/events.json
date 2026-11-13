@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T00:01:16Z",
- "count": 30,
+ "updated": "2026-11-13T13:04:33Z",
+ "count": 29,
  "events": [
   {
    "id": "evensong",
@@ -56,25 +56,6 @@
    "endsAt": "2026-11-13T19:30:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Blakes-Heaven-Big-Band-1.webp",
    "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-aae5f895fe4e",
-   "name": "An Audience With George Michael (And Andrew Ridgeley’s There As Well)",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7533,
-   "longitude": -1.262,
-   "summary": "Old Fire Station",
-   "details": "An Audience With George Michael About An Audience With George Michael (And Andrew Ridgeley’s There As Well) That’s right – George Michael himself is back from heaven to give one last performance of a lifetime, singing all your favourite hits from the Wham years and his solo career. Experience the wonder and magic of George’s career all over again! Travel through time to experience all the eras of George – the jeans, the jackets, and the facial hair. There’ll be laughter, there’ll be tears, there’ll be a tombola. Oh, and Andrew Ridgeley’s there as well. An evening of comedy and song with…",
-   "address": "Old Fire Station, Oxford, 40 George Street, Oxford, Oxfordshire, OX1 2AQ",
-   "website": "https://theoxfordmagazine.com/event/an-audience-with-george-michael-and-andrew-ridgeleys-there-as-well/",
-   "when": "Fri 13 Nov · 19:30",
-   "startsAt": "2026-11-13T19:30:00Z",
-   "endsAt": "2026-11-14T20:45:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/An-Audience-With-George-Michael-And-Andrew-Ridgeleys-There-As-Well.webp",
-   "venue": "Old Fire Station",
    "source": "The Oxford Magazine (more)"
   },
   {
@@ -196,8 +177,8 @@
    "categories": [
     "events"
    ],
-   "latitude": 51.751297,
-   "longitude": -1.297917,
+   "latitude": 51.751533,
+   "longitude": -1.297465,
    "summary": "West Way Square",
    "details": "Botley Farmers’ Market, Oxford About Botley Farmers’ Market Botley Farmers’ Market, in Botley, just outside Oxford, takes place every Saturday from 10.00am to 3.00pm. The market is located in the brand new West Way Square, and you can pick up all your locally sourced produce and food. Editorial update We have unconfirmed reports that the Botley Farmer’s Market is permanently closed. If that’s wrong, you can suggest an edit via our contact page.",
    "address": "West Way Square, Botley Oxford, West Way Square, Botley, Oxford, Oxfordshire",
