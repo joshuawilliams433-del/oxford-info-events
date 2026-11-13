@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T23:42:57Z",
- "count": 18,
+ "updated": "2026-11-13T00:00:52Z",
+ "count": 22,
  "events": [
   {
    "id": "evensong",
@@ -165,6 +165,42 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-de5b84b8fe62",
+   "name": "The R&B Orchestra in Oxford!",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "R&B · O2 Academy Oxford",
+   "details": "Get ready to experience the golden era of R&B reimagined by a live orchestra. The R&B Orchestra in Oxford! Step into a world where the smoothest R&B anthems are reimagined by a breathtaking live orchestra. From the heartfelt ballads of the '90s R&B to the club classics of the 2000s and beyond, this is more than just a concert-it's a love letter to R&B. Expect to hear the soulful sounds of Alicia Keys, Usher, Brandy, Mary J. Blige, TLC, Ne-Yo, Destiny's Child and more-performed by an ensemble of talented musicans and vocalists like you've never heard them before. Join us for a unique R&B…",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/the-rb-orchestra-in-oxford-oxford-28-11-2026/event/3E0064DED05B8490",
+   "when": "Sat 28 Nov · 19:00",
+   "startsAt": "2026-11-28T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-3c9ab7d30279",
+   "name": "EMO FESTIVAL COMES TO OXFORD!",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/emo-festival-comes-to-oxford-oxford-04-12-2026/event/3E0064D1D1C37C08",
+   "when": "Fri 4 Dec · 18:00",
+   "startsAt": "2026-12-04T18:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/54f/493003db-0d03-4c9e-80fe-b4326c79a54f_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-0324c3e2cad9",
    "name": "Greg Davies - Full Fat Legend",
    "categories": [
@@ -252,6 +288,42 @@
    "when": "Thu 3 Dec · 19:00",
    "startsAt": "2026-12-03T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/db5/eb32869f-be25-4a91-898f-2ee648976db5_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-3704f476dd7b",
+   "name": "Live at Christmas: Nina Conti & Fern Brady",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Comedy · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/live-at-christmas-nina-conti-fern-oxford-04-12-2026/event/360064C232F46FD9",
+   "when": "Fri 4 Dec · 19:30",
+   "startsAt": "2026-12-04T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/a07/736ee1ba-52d2-4259-9a7f-22a6952cfa07_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-bc7d9779d740",
+   "name": "Anton Du Beke: Anton at Christmas",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Dance · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/anton-du-beke-anton-at-christmas-oxford-11-12-2026/event/3600651E103190FD",
+   "when": "Fri 11 Dec · 19:30",
+   "startsAt": "2026-12-11T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/745/654e4254-a449-46d9-8a2c-10cee3075745_SOURCE",
    "venue": "New Theatre Oxford",
    "source": "ticketmaster"
   },
