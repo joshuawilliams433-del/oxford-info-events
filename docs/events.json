@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-13T13:04:33Z",
- "count": 29,
+ "updated": "2026-11-14T12:09:07Z",
+ "count": 27,
  "events": [
   {
    "id": "evensong",
@@ -19,82 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-05564529f236",
-   "name": "Chasing Abbey",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7488,
-   "longitude": -1.2402,
-   "summary": "O2 Academy Oxford",
-   "details": "Chasing Abbey About Chasing Abbey Irish trio Chasing Abbey are known for their groundbreaking fusion of electronic production and Celtic influences, in particular Irish traditional music. At the forefront of the Irish language revival, Chasing Abbey use this beautiful ancient language to deliver their lyrics with maximum weight. Their live show is just as much a spiritual awakening as it is a concert performance – soaring energy mixed with a message of unity and social justice drives home the feeling that this is not just a show, this is a movement. Tickets Please see important booking…",
-   "address": "O2 Academy Oxford, 190 Cowley Road, Oxford, Oxfordshire, OX4 1UE, United Kingdom",
-   "website": "https://theoxfordmagazine.com/event/chasing-abbey/",
-   "when": "Fri 13 Nov · 18:30",
-   "startsAt": "2026-11-13T18:30:00Z",
-   "endsAt": "2026-11-13T18:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Chasing-Abbey.webp",
-   "venue": "O2 Academy Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-ada3e4d02a54",
-   "name": "Blake’s Heaven Big Band",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7699,
-   "longitude": -1.27,
-   "summary": "The North Wall Arts Centre",
-   "details": "Oxfordshire’s 17-piece Blake’s Heaven Big Band About Blake’s Heaven Big Band Returning to The North Wall, Oxfordshire based Blake’s Heaven Big Band is a 17-piece modern ensemble delivering funk, pop, jazz and swing styles influenced from all genres of music. The Band’s repertoire ranges from classic big band to fun cartoon, TV and film themes and popular time-honoured hits from the 60s through to the 90s and beyond. This time around at The North Wall, Blake’s Heaven Big Band looks forward to sharing some fresh original compositions and songs from their extensive library that will be featured…",
-   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
-   "website": "https://theoxfordmagazine.com/event/blakes-heaven-big-band-2/",
-   "when": "Fri 13 Nov · 19:30",
-   "startsAt": "2026-11-13T19:30:00Z",
-   "endsAt": "2026-11-13T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Blakes-Heaven-Big-Band-1.webp",
-   "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-899c238cc7c1",
-   "name": "Seann Walsh: This is Torture",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7553,
-   "longitude": -1.2603,
-   "summary": "Oxford Playhouse",
-   "details": "Seann Walsh: This is Torture About Seann Walsh: This is Torture After his sell-out 2023 tour, the UK’s dishevelled king of stand-up, award-winning Seann Walsh returns with a brand-new hour of side-splitting comedy. Don’t miss his trademark high-energy exasperation and razor-sharp observations that leave audiences in stitches and on their feet all around the country. This year, he’s decided to name the show after the thing he says the most in life – This is Torture! Reviews “Unquestionably the best observational comic of his generation.” The Guardian “A cracking good show.” The Telegraph “One…",
-   "address": "Oxford Playhouse, Beaumont Street, Oxford, Oxfordshire, OX1 2LW, United Kingdom",
-   "website": "https://theoxfordmagazine.com/event/seann-walsh-this-is-torture/",
-   "when": "Fri 13 Nov · 19:30",
-   "startsAt": "2026-11-13T19:30:00Z",
-   "endsAt": "2026-11-13T21:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Seann-Walsh_760x535-e1788374342617.webp",
-   "venue": "Oxford Playhouse",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-0ca7d650daef",
-   "name": "Out of the Deep",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7586,
-   "longitude": -1.2556,
-   "summary": "Oxford University Museum of Natural History",
-   "details": "Out of the Deep About Out of the Deep Every Saturday, families can drop in to the Museum of the History of Science for Out of the Deep, a hands-on session exploring the fascinating world of marine reptiles. Between 11.00am and 1.00pm, visitors of all ages can handle real specimens and learn more about creatures that once lived beneath the waves. The event is free and requires no booking. Please note there are no sessions on 04 April (Easter weekend) or 26 December. Tickets Please see important booking information below. Booking information Ticket prices: Free event Dates & times: Every…",
-   "address": "Oxford University Museum of Natural History, Parks Road, Oxford, Oxfordshire",
-   "website": "https://theoxfordmagazine.com/event/out-of-the-deep/2026-11-14/",
-   "when": "Sat 14 Nov · 11:00",
-   "startsAt": "2026-11-14T11:00:00Z",
-   "endsAt": "2026-11-14T13:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Out-of-the-Deep.webp",
-   "venue": "Oxford University Museum of Natural History",
-   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-7d753d09661f",
@@ -116,78 +40,22 @@
    "source": "The Oxford Magazine (more)"
   },
   {
-   "id": "ev-23555b3dfc30",
-   "name": "The Rifles",
+   "id": "ev-13980d766fe9",
+   "name": "Oxford Symphony Orchestra: Prokofiev and Bruckner",
    "categories": [
     "events"
    ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy Oxford",
-   "details": "Main Support - Joe Carnall Opener Support - Nico Cann Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/the-rifles-oxford-13-11-2026/event/3E0064744A1D918B",
-   "when": "Fri 13 Nov · 18:30",
-   "startsAt": "2026-11-13T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/d2e/698f3a93-88bc-4fc7-bd8b-ef7b6c7a4d2e_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-266d53a498be",
-   "name": "East Oxford Farmers’ & Community Market",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.748603,
-   "longitude": -1.234806,
-   "summary": "East Oxford Primary School",
-   "details": "East Oxford Farmers’ & Community Market About the East Oxford Farmers’ & Community Market The East Oxford Farmers’ & Community Market is a small, friendly local market with plenty of fresh food, delicious sweet and savoury takeaways, dried foods, and a plant-based café. The market also features stalls non-food stalls selling antiques, scarves and shawls, non-plastic household goods, and makeup, plus cleaners and detergents. The majority of the producers are from within 30 miles of Oxford. The market began in August 2006 with just six stalls, and it has since grown into a local institution.…",
-   "address": "East Oxford Primary School, Union Street, Oxford, Oxfordshire, OX4 1JP",
-   "website": "https://theoxfordmagazine.com/event/east-oxford-farmers-community-market/2026-11-14/",
-   "when": "Sat 14 Nov · 10:00",
-   "startsAt": "2026-11-14T10:00:00Z",
-   "endsAt": "2026-11-14T13:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/east-oxford-farmers-and-community-market-1600x900.webp",
-   "venue": "East Oxford Primary School",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-956f78f2044b",
-   "name": "North Parade Market on 2nd Saturdays",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.764601,
-   "longitude": -1.261668,
-   "summary": "North Parade Avenue",
-   "details": "North Parade Market Oxford About the North Parade Market Established in July 2012, the first market was held the following October. Since then, market has quickly become one of the most highly regarded markets in the North Oxford area. The market features organic and artisan producers from the local area, who bring life and colour to this pleasant avenue in the central north Oxford area. The North Parade Market takes place every 2nd and 4th Saturday of the month on North Parade Avenue which runs between the Woodstock Road (Church Walk, leading to North Parade Avenue) and Banbury Road.",
-   "address": "North Parade Avenue, North Parade Avenue, Oxford, Oxfordshire, OX2 6LX",
-   "website": "https://theoxfordmagazine.com/event/north-parade-market-2nd-saturday/2026-11-14/",
-   "when": "Sat 14 Nov · 10:00",
-   "startsAt": "2026-11-14T10:00:00Z",
-   "endsAt": "2026-11-14T14:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/north-parade-market-oxford-02-1600x900.webp",
-   "venue": "North Parade Avenue",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-a0a4e47fb39d",
-   "name": "Botley Farmers’ Market, Oxford",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.751533,
-   "longitude": -1.297465,
-   "summary": "West Way Square",
-   "details": "Botley Farmers’ Market, Oxford About Botley Farmers’ Market Botley Farmers’ Market, in Botley, just outside Oxford, takes place every Saturday from 10.00am to 3.00pm. The market is located in the brand new West Way Square, and you can pick up all your locally sourced produce and food. Editorial update We have unconfirmed reports that the Botley Farmer’s Market is permanently closed. If that’s wrong, you can suggest an edit via our contact page.",
-   "address": "West Way Square, Botley Oxford, West Way Square, Botley, Oxford, Oxfordshire",
-   "website": "https://theoxfordmagazine.com/event/botley-farmers-market-oxford/2026-11-14/",
-   "when": "Sat 14 Nov · 10:00",
-   "startsAt": "2026-11-14T10:00:00Z",
-   "endsAt": "2026-11-14T15:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/botley-farmers-market-oxford-01-1600x900-1.webp",
-   "venue": "West Way Square",
+   "latitude": 51.7515,
+   "longitude": -1.2575,
+   "summary": "Oxford Town Hall",
+   "details": "About Oxford Symphony Orchestra: Prokofiev and Bruckner Prokofiev – Piano Concerto no 3Bruckner – Symphony no 4 Enoch Wong pianoRobert Max conductor Prokofiev’s lush and fiery popular third piano concerto is full of crackling energy and playfulness. Our soloist is Enoch Wong, an outstanding young pianist noted for his technical brilliance and poetic conviction. Bruckner’s ‘Romantic’ symphony captures the magnificence of the medieval natural world and of the spirit of knights hunting, but it also speaks of the nature of human existence in ways that are no less relevant to us today. Tickets…",
+   "address": "Oxford Town Hall, Oxford Town Hall, St Aldate's,, Oxford, OX1 1BX, United Kingdom",
+   "website": "https://theoxfordmagazine.com/event/oxford-symphony-orchestra-prokofiev-and-bruckner/",
+   "when": "Sat 14 Nov · 19:30",
+   "startsAt": "2026-11-14T19:30:00Z",
+   "endsAt": "2026-11-14T21:45:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/TO-OSO-Nov-26-e1791746651627.webp",
+   "venue": "Oxford Town Hall",
    "source": "The Oxford Magazine (more)"
   },
   {
@@ -225,6 +93,63 @@
    "endsAt": "2026-11-14T18:30:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/the-glee-club-oxford-02-1920x1080-1.webp",
    "venue": "The Glee Club",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-4ab2cdcbb0f0",
+   "name": "Wolvercote Community Market",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.783805,
+   "longitude": -1.293162,
+   "summary": "The White Hart Wolvercote",
+   "details": "Wolvercote Community Market About Wolvercote Community Market Established in 2002, Wolvercote Community Market is the longest running Farmers’ Market in Oxford, and one of three in the North Oxford area. The market aims to provide the community with locally-produced great tasting food. The Sunday market serves the community and visitors by providing fresh, affordable and ethically sourced food as well as a place to meet, eat and socialise with friends and neighbours. It also provides a free marketplace for local producers and crafts people. Regular stallholders bring fresh fruit and veg,…",
+   "address": "The White Hart Wolvercote, 126 Godstow Road, Oxford, Oxfordshire, OX2 8PQ",
+   "website": "https://theoxfordmagazine.com/event/wolvercote-community-market/2026-11-15/",
+   "when": "Sun 15 Nov · 10:00",
+   "startsAt": "2026-11-15T10:00:00Z",
+   "endsAt": "2026-11-15T12:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/wolvercote-sunday-market-1600x900.webp",
+   "venue": "The White Hart Wolvercote",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-c420018ccd8e",
+   "name": "South Oxford Farmers and Community Market",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.73909,
+   "longitude": -1.256653,
+   "summary": "South Oxford Community Centre",
+   "details": "South Oxford Farmers and Community Market About the South Oxford Farmers and Community Market The South Oxford Farmers and Community Market is a weekly market selling local, seasonal food and non-food goods. ‘Local’ means produced within a 30-mile radius of Oxford and ‘produced’ means containing a significant quantity of local ingredients and labour although locality rules do not necessarily apply to ethical enterprises such as Fairtrade or similar organisations. The market also supports the resale of locally-sourced second-hand products such as books and clothing. The market is held every…",
+   "address": "South Oxford Community Centre, Lake Street, Oxford, Oxfordshire, OX1 4RP",
+   "website": "https://theoxfordmagazine.com/event/south-oxford-farmers-and-community-market/2026-11-15/",
+   "when": "Sun 15 Nov · 10:00",
+   "startsAt": "2026-11-15T10:00:00Z",
+   "endsAt": "2026-11-15T14:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/south-oxford-farmers-and-community-market-1600x900.webp",
+   "venue": "South Oxford Community Centre",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-63d0923b8070",
+   "name": "Oxford Etsy Christmas Market",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.752,
+   "longitude": -1.251,
+   "summary": "Examination Schools",
+   "details": "Oxford Etsy Christmas Market About Oxford Etsy Christmas Market The Oxford Etsy Team Christmas Market is back, once again, in the stunning setting of the Oxford University Examination Schools. With over 70 local makers and sellers, there will be a mix of handmade home accessories, jewellery, stationery, ceramics, clothes, artwork, prints, vintage items and accessories. There will also be a performance from a local choir. Entry is free. Tickets Please see important booking information below. Booking information Dates and times: Sunday 15 November 2026 from 10.00am to 4.00pm About the…",
+   "address": "Examination Schools, High Street, Oxford, OX1 4BG",
+   "website": "https://theoxfordmagazine.com/event/oxford-etsy-christmas-market/",
+   "when": "Sun 15 Nov · 10:00",
+   "startsAt": "2026-11-15T10:00:00Z",
+   "endsAt": "2026-11-15T16:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Oxford-Etsy-Christmas-Market.webp",
+   "venue": "Examination Schools",
    "source": "The Oxford Magazine (more)"
   },
   {
@@ -332,6 +257,42 @@
    "when": "Fri 27 Nov · 18:30",
    "startsAt": "2026-11-27T18:30:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/959/a6236c28-2b82-4439-a91b-9e751764f959_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-de5b84b8fe62",
+   "name": "The R&B Orchestra in Oxford!",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "R&B · O2 Academy Oxford",
+   "details": "Get ready to experience the golden era of R&B reimagined by a live orchestra. The R&B Orchestra in Oxford! Step into a world where the smoothest R&B anthems are reimagined by a breathtaking live orchestra. From the heartfelt ballads of the '90s R&B to the club classics of the 2000s and beyond, this is more than just a concert-it's a love letter to R&B. Expect to hear the soulful sounds of Alicia Keys, Usher, Brandy, Mary J. Blige, TLC, Ne-Yo, Destiny's Child and more-performed by an ensemble of talented musicans and vocalists like you've never heard them before. Join us for a unique R&B…",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/the-rb-orchestra-in-oxford-oxford-28-11-2026/event/3E0064DED05B8490",
+   "when": "Sat 28 Nov · 19:00",
+   "startsAt": "2026-11-28T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/48b/2352e3b5-8496-496b-97a3-e605177e848b_105851_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-3c9ab7d30279",
+   "name": "EMO FESTIVAL COMES TO OXFORD!",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/emo-festival-comes-to-oxford-oxford-04-12-2026/event/3E0064D1D1C37C08",
+   "when": "Fri 4 Dec · 18:00",
+   "startsAt": "2026-12-04T18:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/54f/493003db-0d03-4c9e-80fe-b4326c79a54f_SOURCE",
    "venue": "O2 Academy Oxford",
    "source": "ticketmaster"
   },

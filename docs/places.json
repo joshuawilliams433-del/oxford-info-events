@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T00:02:30Z",
+ "updated": "2026-11-14T12:10:01Z",
  "count": 578,
  "places": [
   {
@@ -8063,9 +8063,9 @@
    ],
    "latitude": 51.751803,
    "longitude": -1.257802,
-   "summary": "Café",
-   "details": "Café",
-   "address": "Oxford",
+   "summary": "Café · St Aldate's",
+   "details": "Café · St Aldate's",
+   "address": "121 St Aldate's, OX1 1EJ",
    "kind": "cafe",
    "chain": false,
    "source": "osm"
