@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:42:55Z",
+ "updated": "2026-11-16T13:36:32Z",
  "count": 27,
  "events": [
   {
@@ -19,82 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-69ade5926299",
-   "name": "Family-Friendly Sundays",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7586,
-   "longitude": -1.2556,
-   "summary": "Oxford University Museum of Natural History",
-   "details": "Family-Friendly Sundays About Family-Friendly Sundays Join the museum every Sunday afternoon for nature-themed activities, crafts, family-friendly trails, and more! All provided by Museum volunteers. Tickets Please see important booking information below. Booking information Ticket prices: Free event Dates & times: Every Sunday at 2.00pm, except 27 December 2026 Running time: 2 hours Age guidance: Suitable for all ages. Good to know: Free event. No booking required. Accessibility information: Wheelchair accessible? – Yes Hearing loops? – No Seating? – Yes Refreshments? – No Flashing lights? –…",
-   "address": "Oxford University Museum of Natural History, Parks Road, Oxford, Oxfordshire",
-   "website": "https://theoxfordmagazine.com/event/family-friendly-sundays-2/2026-11-15/",
-   "when": "Sun 15 Nov · 14:00",
-   "startsAt": "2026-11-15T14:00:00Z",
-   "endsAt": "2026-11-15T16:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Family-Friendly-Sundays.webp",
-   "venue": "Oxford University Museum of Natural History",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-30a943dc492f",
-   "name": "Jake Bugg Album Launch: In Conversation with + Live (Acoustic) Set",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7488,
-   "longitude": -1.2402,
-   "summary": "O2 Academy Oxford",
-   "details": "Jake Bugg Album Launch: In Conversation with + Live (Acoustic) Set About Jake Bugg Album Launch: In Conversation with + Live (Acoustic) Set Join Jake Bugg at O2 Academy Oxford for a special outstore celebrating the release of his seventh album, Alamo. The event will feature an acoustic set, an in-conversation segment, offering you the chance to both experience the artist performing live, hear more about the artist behind the record. Tickets Please see important booking information below. Booking information Ticket prices: From £21.20 This includes handling fees Dates & times: Sunday 15…",
-   "address": "O2 Academy Oxford, 190 Cowley Road, Oxford, Oxfordshire, OX4 1UE, United Kingdom",
-   "website": "https://theoxfordmagazine.com/event/jake-bugg-album-launch-in-conversation-with-live-acoustic-set/",
-   "when": "Sun 15 Nov · 19:00",
-   "startsAt": "2026-11-15T19:00:00Z",
-   "endsAt": "2026-11-15T21:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/56dba3e1-3c0f-4ea6-af52-ff5f9bf9e255.webp",
-   "venue": "O2 Academy Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-4902ead049a7",
-   "name": "Thank ABBA For The Music",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Thank ABBA For The Music About Thank ABBA For The Music For one night only, dust off your platforms and flares for a journey back in time to when ABBA ruled the airwaves! Thank ABBA For The Music is an epic two-hour ABBA-fest that captures all of the magic and excitement of one of pop history’s most phenomenal bands. Expect all of ABBA’s iconic hits, including Dancing Queen, Mamma Mia, Super Trouper, Gimme! Gimme! Gimme! SOS, Waterloo, Take A Chance On Me, Voulez-Vous and many more! Thank ABBA For The Music Featuring a dynamic cast of outstanding singers, dazzling choreography and interactive…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/thank-abba-for-the-music/",
-   "when": "Sun 15 Nov · 19:30",
-   "startsAt": "2026-11-15T19:30:00Z",
-   "endsAt": "2026-11-15T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/ThankAbbaForTheMusic_Title5_1920x1080-1.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-fe34b9ffe199",
-   "name": "Hannah James & Toby Kuhn",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7699,
-   "longitude": -1.27,
-   "summary": "The North Wall Arts Centre",
-   "details": "Hannah James & Toby Kuhn About Hannah James & Toby Kuhn Innovative folk artist Hannah James reunites with dynamic cellist Toby Kuhn for a series of live shows celebrating their new album, Where All Our Names Belong. Together they weave a rich tapestry of song, story, and rhythm – Hannah’s expressive voice, accordion, and percussive dance entwined with Toby’s vivid, unorthodox cello delivery. Hannah is an award-winning musician, dancer, songwriter and singer, a creative force renowned for her work in Lady Maisery and collaborations with Seasick Steve, Maddy Prior and Songs of Separation with…",
-   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
-   "website": "https://theoxfordmagazine.com/event/hannah-james-toby-kuhn/",
-   "when": "Sun 15 Nov · 19:30",
-   "startsAt": "2026-11-15T19:30:00Z",
-   "endsAt": "2026-11-15T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Hannah-James-Toby-Kuhn.webp",
-   "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-3b34f945ebd9",
@@ -151,6 +75,101 @@
    "endsAt": "2026-11-19T19:30:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-La-boheme-01.webp",
    "venue": "New Theatre Oxford",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-24bf3669fe53",
+   "name": "Takács Quartet",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7608,
+   "longitude": -1.2626,
+   "summary": "Schwarzman Centre for the Humanities",
+   "details": "Takács Quartet About Takács Quartet Music from across the centuries, in the hands of true chamber music masters. For over fifty years, Takács Quartet has stood at the forefront of chamber music, receiving global acclaim for their innovative performances at the world’s most revered concert halls and collaborations with luminaries such as Philip Seymour Hoffman, Robert Pinsky and more. The group pairs classical cornerstones in Haydn’s Quartet in G major Op.77 No. 1 & Brahms’ Quartet in C minor Op.51 No. 1 with the contemporary voice of Carlos Simon, whose Warmth from Other Suns explores…",
+   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
+   "website": "https://theoxfordmagazine.com/event/takacs-quartet/",
+   "when": "Thu 19 Nov · 19:30",
+   "startsAt": "2026-11-19T19:30:00Z",
+   "endsAt": "2026-11-19T21:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Takacs-Quartet.webp",
+   "venue": "Schwarzman Centre for the Humanities",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-16cdc5905c7e",
+   "name": "corto.alto",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7488,
+   "longitude": -1.2402,
+   "summary": "O2 Academy Oxford",
+   "details": "corto.alto About corto.alto Innovative jazz fusion project corto.alto brings a boundary-pushing live set that blends jazz, broken beat, electronic textures and improvisation into a dynamic, modern sound. Led by Glasgow-based musician Liam Shortall, corto.alto has built a reputation for genre-defying performances that move fluidly between groove-heavy rhythms, atmospheric passages and explosive improvisational sections. Expect rich instrumentation, intricate musicianship and a constantly evolving live experience. This is contemporary jazz at its most forward-thinking — immersive, rhythmic and…",
+   "address": "O2 Academy Oxford, 190 Cowley Road, Oxford, Oxfordshire, OX4 1UE, United Kingdom",
+   "website": "https://theoxfordmagazine.com/event/corto-alto/",
+   "when": "Fri 20 Nov · 18:30",
+   "startsAt": "2026-11-20T18:30:00Z",
+   "endsAt": "2026-11-20T18:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/corto.alto_.webp",
+   "venue": "O2 Academy Oxford",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-6b2e3636dcea",
+   "name": "Welsh National Opera - Family Concert",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7536,
+   "longitude": -1.2617,
+   "summary": "New Theatre Oxford",
+   "details": "Welsh National Opera – Family Concert About Welsh National Opera – Family Concert Welsh National Opera’s Family Concert is back with a vibrant and welcoming introduction to live orchestral music. Hosted by Elin Llwyd, the concert blends well-known favourites brought to life by WNO Orchestra, alongside a group of outstanding soloists performing recognisable pieces for all the family. Offenbach’s energetic Can-Can brings a sense of joy and familiarity, encouraging young audiences to connect straight away while Beethoven’s music from Prometheus stands out with its bold, cinematic quality almost…",
+   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
+   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-family-concert/",
+   "when": "Fri 20 Nov · 19:30",
+   "startsAt": "2026-11-20T19:30:00Z",
+   "endsAt": "2026-11-20T19:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Family-Concert-01.webp",
+   "venue": "New Theatre Oxford",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-4e835362406b",
+   "name": "Anthem for Dissatisfaction",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7699,
+   "longitude": -1.27,
+   "summary": "The North Wall Arts Centre",
+   "details": "About Anthem for Dissatisfaction Presented by SkelpieLimmer Productions & Brassneck Theatre Company Written by Gina Donnelly Directed by Gina Donnelly & Tony Devlin Starring Simon Sweeney & Emily Lamey The Credit Crunch, 2007. ‘Irish Twins’ Sarah and Jamie are growing up in Belfast with a shared obsession of music and the weight of parents on the breadline. Oasis, The Jam, Springsteen and Sam Fender songs scream at the state of the nation, tugging at the memories of what it means to grow up on benefits in a country where poverty became a punchline. Benefits Britain never sounded so good… A…",
+   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
+   "website": "https://theoxfordmagazine.com/event/anthem-for-dissatisfaction/",
+   "when": "Fri 20 Nov · 20:00",
+   "startsAt": "2026-11-20T20:00:00Z",
+   "endsAt": "2026-11-20T21:05:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Anthem-for-Dissatisfaction.webp",
+   "venue": "The North Wall Arts Centre",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-483f425c0268",
+   "name": "Christmas Comes Early: The Drag Spuds Cabaret",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7533,
+   "longitude": -1.262,
+   "summary": "Old Fire Station",
+   "details": "The Drag Spuds Cabaret About Christmas Comes Early: The Drag Spuds Cabaret Oxford’s Drag Christmas Cabaret Celebrate the festive season with an unforgettable evening of drag, glamour, and holiday cheer as the Mother of the Oxford drag scene, Cairo Iman Ali, takes centre stage for a spectacular Christmas Cabaret. Joined by the sensational Scarlett Von Kok and the dazzling Sera Tonin, this festive extravaganza brings together some of Oxford’s finest drag talent for a night packed with laughter, lip-syncs, live entertainment, camp Christmas classics, and plenty of seasonal surprises. From…",
+   "address": "Old Fire Station, Oxford, 40 George Street, Oxford, Oxfordshire, OX1 2AQ",
+   "website": "https://theoxfordmagazine.com/event/christmas-comes-early-the-drag-spuds-cabaret/",
+   "when": "Fri 20 Nov · 20:00",
+   "startsAt": "2026-11-20T20:00:00Z",
+   "endsAt": "2026-11-20T22:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Christmas-Comes-Early-The-Drag-Spuds-Cabaret.webp",
+   "venue": "Old Fire Station",
    "source": "The Oxford Magazine (more)"
   },
   {
@@ -422,24 +441,6 @@
    "startsAt": "2026-12-03T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/db5/eb32869f-be25-4a91-898f-2ee648976db5_SOURCE",
    "venue": "New Theatre Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-adc2a1660246",
-   "name": "Dermot Henry",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747153,
-   "longitude": -1.235535,
-   "summary": "Rock · The Bullingdon ",
-   "details": "Plus support from TESNI",
-   "address": "162 Cowley Road  , OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/dermot-henry-oxford-15-11-2026/event/1F006511ACFD3BE6",
-   "when": "Sun 15 Nov · 19:00",
-   "startsAt": "2026-11-15T19:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/5d9/402daee4-e472-444d-bdac-0e7c6d7c65d9_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "The Bullingdon ",
    "source": "ticketmaster"
   },
   {
