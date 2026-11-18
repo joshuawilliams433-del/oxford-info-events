@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17T14:21:20Z",
- "count": 27,
+ "updated": "2026-11-18T13:55:10Z",
+ "count": 21,
  "events": [
   {
    "id": "evensong",
@@ -19,176 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-3b34f945ebd9",
-   "name": "Monteverdi Choir and Orchestras: Handel’s Theodora",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7608,
-   "longitude": -1.2626,
-   "summary": "Schwarzman Centre for the Humanities",
-   "details": "Monteverdi Choir and Orchestras: Handel’s Theodora About Monteverdi Choir and Orchestras: Handel’s Theodora Handel’s great oratorio is one of the most celebrated choral works of the 18th century. A radical vision of faith and freedom. Performed by the Monteverdi Choir and English Baroque Soloists, under the direction of Christophe Rousset, this concert staging brings new light to Handel’s masterpiece. Theodora is a much loved oratorio and a powerful 18th-century vision of utopia. Set in Roman-occupied Antioch, it tells the story of a Christian martyr who defies empire in the name of faith and…",
-   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
-   "website": "https://theoxfordmagazine.com/event/monteverdi-choir-and-orchestras-handels-theodora/",
-   "when": "Wed 18 Nov · 19:00",
-   "startsAt": "2026-11-18T19:00:00Z",
-   "endsAt": "2026-11-18T22:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Monteverdi-Choir-and-Orchestras-Handels-Theodora.webp",
-   "venue": "Schwarzman Centre for the Humanities",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-3fc9bd0c2e66",
-   "name": "Paul Foot: The Future",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7699,
-   "longitude": -1.27,
-   "summary": "The North Wall Arts Centre",
-   "details": "Paul Foot: The Future About Paul Foot: The Future Pioneering alt-comedy hero and star of Cats Does Countdown Paul Foot is back on tour with a brand-new stand-up show. Remember when people were excited for the future? With visions of jetpacks, friendly robots wheeling around, and solar-powered bidets. Well, we don’t have visions like that anymore, do we? As seen on Would I Lie To You?, Never Mind the Buzzcocks and 8 Out of 10 Cats Does Countdown. Reviews “Funnier and more daring than I’ve ever seen him… [has] the audience laughing so hard they’re about to leave their bodies.” ★★★★★ Chortle…",
-   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
-   "website": "https://theoxfordmagazine.com/event/paul-foot-the-future/",
-   "when": "Thu 19 Nov · 19:30",
-   "startsAt": "2026-11-19T19:30:00Z",
-   "endsAt": "2026-11-19T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Paul-Foot-The-Future.webp",
-   "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-6fead7f72156",
-   "name": "Welsh National Opera - La boheme",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Welsh National Opera – La boheme About Welsh National Opera – La boheme In the Latin Quarter of Paris, four young artists live for the moment, sharing what little they have, chasing big dreams and laughing through the cold. When Rodolfo meets Mimì, a quiet seamstress with a fading light, their connection is instant and unforgettable. But in a world shaped by poverty and passion, love burns brightly but all too briefly. Puccini’s deeply moving masterpiece captures the passion of youth through some of the most beautiful and recognisable music ever written. La bohème evokes the spirit and…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-la-boheme/",
-   "when": "Thu 19 Nov · 19:30",
-   "startsAt": "2026-11-19T19:30:00Z",
-   "endsAt": "2026-11-19T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-La-boheme-01.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-24bf3669fe53",
-   "name": "Takács Quartet",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7608,
-   "longitude": -1.2626,
-   "summary": "Schwarzman Centre for the Humanities",
-   "details": "Takács Quartet About Takács Quartet Music from across the centuries, in the hands of true chamber music masters. For over fifty years, Takács Quartet has stood at the forefront of chamber music, receiving global acclaim for their innovative performances at the world’s most revered concert halls and collaborations with luminaries such as Philip Seymour Hoffman, Robert Pinsky and more. The group pairs classical cornerstones in Haydn’s Quartet in G major Op.77 No. 1 & Brahms’ Quartet in C minor Op.51 No. 1 with the contemporary voice of Carlos Simon, whose Warmth from Other Suns explores…",
-   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
-   "website": "https://theoxfordmagazine.com/event/takacs-quartet/",
-   "when": "Thu 19 Nov · 19:30",
-   "startsAt": "2026-11-19T19:30:00Z",
-   "endsAt": "2026-11-19T21:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Takacs-Quartet.webp",
-   "venue": "Schwarzman Centre for the Humanities",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-16cdc5905c7e",
-   "name": "corto.alto",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7488,
-   "longitude": -1.2402,
-   "summary": "O2 Academy Oxford",
-   "details": "corto.alto About corto.alto Innovative jazz fusion project corto.alto brings a boundary-pushing live set that blends jazz, broken beat, electronic textures and improvisation into a dynamic, modern sound. Led by Glasgow-based musician Liam Shortall, corto.alto has built a reputation for genre-defying performances that move fluidly between groove-heavy rhythms, atmospheric passages and explosive improvisational sections. Expect rich instrumentation, intricate musicianship and a constantly evolving live experience. This is contemporary jazz at its most forward-thinking — immersive, rhythmic and…",
-   "address": "O2 Academy Oxford, 190 Cowley Road, Oxford, Oxfordshire, OX4 1UE, United Kingdom",
-   "website": "https://theoxfordmagazine.com/event/corto-alto/",
-   "when": "Fri 20 Nov · 18:30",
-   "startsAt": "2026-11-20T18:30:00Z",
-   "endsAt": "2026-11-20T18:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/corto.alto_.webp",
-   "venue": "O2 Academy Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-6b2e3636dcea",
-   "name": "Welsh National Opera - Family Concert",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Welsh National Opera – Family Concert About Welsh National Opera – Family Concert Welsh National Opera’s Family Concert is back with a vibrant and welcoming introduction to live orchestral music. Hosted by Elin Llwyd, the concert blends well-known favourites brought to life by WNO Orchestra, alongside a group of outstanding soloists performing recognisable pieces for all the family. Offenbach’s energetic Can-Can brings a sense of joy and familiarity, encouraging young audiences to connect straight away while Beethoven’s music from Prometheus stands out with its bold, cinematic quality almost…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-family-concert/",
-   "when": "Fri 20 Nov · 19:30",
-   "startsAt": "2026-11-20T19:30:00Z",
-   "endsAt": "2026-11-20T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Family-Concert-01.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-4e835362406b",
-   "name": "Anthem for Dissatisfaction",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7699,
-   "longitude": -1.27,
-   "summary": "The North Wall Arts Centre",
-   "details": "About Anthem for Dissatisfaction Presented by SkelpieLimmer Productions & Brassneck Theatre Company Written by Gina Donnelly Directed by Gina Donnelly & Tony Devlin Starring Simon Sweeney & Emily Lamey The Credit Crunch, 2007. ‘Irish Twins’ Sarah and Jamie are growing up in Belfast with a shared obsession of music and the weight of parents on the breadline. Oasis, The Jam, Springsteen and Sam Fender songs scream at the state of the nation, tugging at the memories of what it means to grow up on benefits in a country where poverty became a punchline. Benefits Britain never sounded so good… A…",
-   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
-   "website": "https://theoxfordmagazine.com/event/anthem-for-dissatisfaction/",
-   "when": "Fri 20 Nov · 20:00",
-   "startsAt": "2026-11-20T20:00:00Z",
-   "endsAt": "2026-11-20T21:05:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Anthem-for-Dissatisfaction.webp",
-   "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-483f425c0268",
-   "name": "Christmas Comes Early: The Drag Spuds Cabaret",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7533,
-   "longitude": -1.262,
-   "summary": "Old Fire Station",
-   "details": "The Drag Spuds Cabaret About Christmas Comes Early: The Drag Spuds Cabaret Oxford’s Drag Christmas Cabaret Celebrate the festive season with an unforgettable evening of drag, glamour, and holiday cheer as the Mother of the Oxford drag scene, Cairo Iman Ali, takes centre stage for a spectacular Christmas Cabaret. Joined by the sensational Scarlett Von Kok and the dazzling Sera Tonin, this festive extravaganza brings together some of Oxford’s finest drag talent for a night packed with laughter, lip-syncs, live entertainment, camp Christmas classics, and plenty of seasonal surprises. From…",
-   "address": "Old Fire Station, Oxford, 40 George Street, Oxford, Oxfordshire, OX1 2AQ",
-   "website": "https://theoxfordmagazine.com/event/christmas-comes-early-the-drag-spuds-cabaret/",
-   "when": "Fri 20 Nov · 20:00",
-   "startsAt": "2026-11-20T20:00:00Z",
-   "endsAt": "2026-11-20T22:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Christmas-Comes-Early-The-Drag-Spuds-Cabaret.webp",
-   "venue": "Old Fire Station",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-69e25d43e874",
-   "name": "TCI Improv Comedy Night",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7533,
-   "longitude": -1.262,
-   "summary": "Old Fire Station",
-   "details": "About TCI Improv Comedy Night Enjoy Oxford’s monthly fix of long-form comedy improv from the best acts in the local and London scenes, brought to you by The Collective Imagination Improv. New to comedy improv? Expect a night of improvised comedy sketches and scenes from some of the finest teams in Oxford and London. Long-form improv is one of the fastest growing and vibrant alternative comedy formats in the UK, and you can see the best of it right here in Oxford. This month’s teams are: Atomic Wasp Improv – TCI Improv’s very own House Team. Using only your suggestions, they’ll weave a series…",
-   "address": "Old Fire Station, Oxford, 40 George Street, Oxford, Oxfordshire, OX1 2AQ",
-   "website": "https://theoxfordmagazine.com/event/tci-improv-comedy-night/2026-11-18/",
-   "when": "Wed 18 Nov · 20:00",
-   "startsAt": "2026-11-18T20:00:00Z",
-   "endsAt": "2026-11-18T21:30:00Z",
-   "venue": "Old Fire Station",
-   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-4530b77294d3",
@@ -353,6 +183,24 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-5346d1b43f57",
+   "name": "December 10",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Pop · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/december-10-oxford-08-12-2026/event/3E006553A6D4378E",
+   "when": "Tue 8 Dec · 19:00",
+   "startsAt": "2026-12-08T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/b9f/b0822ab8-bb34-4bcd-a630-4fdf510e3b9f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-0324c3e2cad9",
    "name": "Greg Davies - Full Fat Legend",
    "categories": [
@@ -369,6 +217,24 @@
    "endsAt": "2026-12-13T19:30:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/31c/955b427d-658e-40fc-8ec3-69adb7a0a31c_SOURCE",
    "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-24dd13b17486",
+   "name": "The Music of The Lord of The Rings. Tribute to Howard Shore by candlelight",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754869,
+   "longitude": -1.24977,
+   "summary": "Classical · Holywell Music Room",
+   "details": "Join us at the iconic Holywell Music Room, in the heart of Oxford, for ’Our precious concert’ – one of our most beloved and best-selling programmes! Experience the majestic and timeless music of the legendary Lord of the Rings films in a breathtaking concert that will transport audiences straight into the heart of Tolkien’s universe. Howard Shore’s iconic soundtrack has captivated millions worldwide, and now, we bring it to Oxford! Performed by the modern orchestra Mystery Ensemble, this magical evening will transport you instantly into the heart of Tolkien’s universe, where elves, hobbits,…",
+   "address": "Holywell St, OX13SE",
+   "website": "https://www.universe.com/events/the-music-of-the-lord-of-the-rings-tribute-to-howard-shore-by-candlelight-tickets-TG3Q58?ref=ticketmaster",
+   "when": "Sat 19 Dec · 18:00",
+   "startsAt": "2026-12-19T18:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/f7b/ef64d601-8740-43cd-86ea-ed9b392e4f7b_105961_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "Holywell Music Room",
    "source": "ticketmaster"
   },
   {
@@ -444,6 +310,42 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-3704f476dd7b",
+   "name": "Live at Christmas: Nina Conti & Fern Brady",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Comedy · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/live-at-christmas-nina-conti-fern-oxford-04-12-2026/event/360064C232F46FD9",
+   "when": "Fri 4 Dec · 19:30",
+   "startsAt": "2026-12-04T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/a07/736ee1ba-52d2-4259-9a7f-22a6952cfa07_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-bc7d9779d740",
+   "name": "Anton Du Beke: Anton at Christmas",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Dance · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/anton-du-beke-anton-at-christmas-oxford-11-12-2026/event/3600651E103190FD",
+   "when": "Fri 11 Dec · 19:30",
+   "startsAt": "2026-12-11T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/745/654e4254-a449-46d9-8a2c-10cee3075745_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-196c079de507",
    "name": "Skids + Theatre Of Hate",
    "categories": [
@@ -476,24 +378,6 @@
    "when": "Tue 8 Dec · 19:00",
    "startsAt": "2026-12-08T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/de6/8d25248c-fe38-4cba-8cf3-63f37f852de6_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "The Bullingdon ",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-07ecc9be7a45",
-   "name": "The North",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747153,
-   "longitude": -1.235535,
-   "summary": "Rock · The Bullingdon ",
-   "details": "Live at The Bullingdon .",
-   "address": "162 Cowley Road  , OX4 1UE",
-   "website": "https://www.ticketweb.uk/event/the-north-the-bullingdon-tickets/14992243?REFERRAL_ID=tmfeed",
-   "when": "Tue 17 Nov · 19:00",
-   "startsAt": "2026-11-17T19:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/c00/1437904b-93cd-4ce3-a8b3-0ec956358c00_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "The Bullingdon ",
    "source": "ticketmaster"
   }
