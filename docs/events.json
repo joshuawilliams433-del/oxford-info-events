@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18T13:55:10Z",
- "count": 21,
+ "updated": "2026-11-19T14:24:28Z",
+ "count": 31,
  "events": [
   {
    "id": "evensong",
@@ -19,6 +19,196 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
+  },
+  {
+   "id": "ev-2bd6d509d2a7",
+   "name": "Paul Foot: The Future",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7699,
+   "longitude": -1.27,
+   "summary": "The North Wall Arts Centre",
+   "details": "Paul Foot: The Future About Paul Foot: The Future Pioneering alt-comedy hero and star of Cats Does Countdown Paul Foot is back on tour with a brand-new stand-up show. Remember when people were excited for the future? With visions of jetpacks, friendly robots wheeling around, and solar-powered bidets. Well, we don’t have visions like that anymore, do we? As seen on Would I Lie To You?, Never Mind the Buzzcocks and 8 Out of 10 Cats Does Countdown. Reviews “Funnier and more daring than I’ve ever seen him… [has] the audience laughing so hard they’re about to leave their bodies.” ★★★★★ Chortle…",
+   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
+   "website": "https://theoxfordmagazine.com/event/paul-foot-the-future/",
+   "when": "Thu 19 Nov · 19:30",
+   "startsAt": "2026-11-19T19:30:00Z",
+   "endsAt": "2026-11-19T19:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Paul-Foot-The-Future.webp",
+   "venue": "The North Wall Arts Centre",
+   "source": "The Oxford Magazine"
+  },
+  {
+   "id": "ev-7d2976a80113",
+   "name": "Welsh National Opera - La boheme",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7536,
+   "longitude": -1.2617,
+   "summary": "New Theatre Oxford",
+   "details": "Welsh National Opera – La boheme About Welsh National Opera – La boheme In the Latin Quarter of Paris, four young artists live for the moment, sharing what little they have, chasing big dreams and laughing through the cold. When Rodolfo meets Mimì, a quiet seamstress with a fading light, their connection is instant and unforgettable. But in a world shaped by poverty and passion, love burns brightly but all too briefly. Puccini’s deeply moving masterpiece captures the passion of youth through some of the most beautiful and recognisable music ever written. La bohème evokes the spirit and…",
+   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
+   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-la-boheme/",
+   "when": "Thu 19 Nov · 19:30",
+   "startsAt": "2026-11-19T19:30:00Z",
+   "endsAt": "2026-11-19T19:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-La-boheme-01.webp",
+   "venue": "New Theatre Oxford",
+   "source": "The Oxford Magazine"
+  },
+  {
+   "id": "ev-0dc671a7832c",
+   "name": "Takács Quartet",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7608,
+   "longitude": -1.2626,
+   "summary": "Schwarzman Centre for the Humanities",
+   "details": "Takács Quartet About Takács Quartet Music from across the centuries, in the hands of true chamber music masters. For over fifty years, Takács Quartet has stood at the forefront of chamber music, receiving global acclaim for their innovative performances at the world’s most revered concert halls and collaborations with luminaries such as Philip Seymour Hoffman, Robert Pinsky and more. The group pairs classical cornerstones in Haydn’s Quartet in G major Op.77 No. 1 & Brahms’ Quartet in C minor Op.51 No. 1 with the contemporary voice of Carlos Simon, whose Warmth from Other Suns explores…",
+   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
+   "website": "https://theoxfordmagazine.com/event/takacs-quartet/",
+   "when": "Thu 19 Nov · 19:30",
+   "startsAt": "2026-11-19T19:30:00Z",
+   "endsAt": "2026-11-19T21:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Takacs-Quartet.webp",
+   "venue": "Schwarzman Centre for the Humanities",
+   "source": "The Oxford Magazine"
+  },
+  {
+   "id": "ev-16cdc5905c7e",
+   "name": "corto.alto",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7488,
+   "longitude": -1.2402,
+   "summary": "O2 Academy Oxford",
+   "details": "corto.alto About corto.alto Innovative jazz fusion project corto.alto brings a boundary-pushing live set that blends jazz, broken beat, electronic textures and improvisation into a dynamic, modern sound. Led by Glasgow-based musician Liam Shortall, corto.alto has built a reputation for genre-defying performances that move fluidly between groove-heavy rhythms, atmospheric passages and explosive improvisational sections. Expect rich instrumentation, intricate musicianship and a constantly evolving live experience. This is contemporary jazz at its most forward-thinking — immersive, rhythmic and…",
+   "address": "O2 Academy Oxford, 190 Cowley Road, Oxford, Oxfordshire, OX4 1UE, United Kingdom",
+   "website": "https://theoxfordmagazine.com/event/corto-alto/",
+   "when": "Fri 20 Nov · 18:30",
+   "startsAt": "2026-11-20T18:30:00Z",
+   "endsAt": "2026-11-20T18:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/corto.alto_.webp",
+   "venue": "O2 Academy Oxford",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-6b2e3636dcea",
+   "name": "Welsh National Opera - Family Concert",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7536,
+   "longitude": -1.2617,
+   "summary": "New Theatre Oxford",
+   "details": "Welsh National Opera – Family Concert About Welsh National Opera – Family Concert Welsh National Opera’s Family Concert is back with a vibrant and welcoming introduction to live orchestral music. Hosted by Elin Llwyd, the concert blends well-known favourites brought to life by WNO Orchestra, alongside a group of outstanding soloists performing recognisable pieces for all the family. Offenbach’s energetic Can-Can brings a sense of joy and familiarity, encouraging young audiences to connect straight away while Beethoven’s music from Prometheus stands out with its bold, cinematic quality almost…",
+   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
+   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-family-concert/",
+   "when": "Fri 20 Nov · 19:30",
+   "startsAt": "2026-11-20T19:30:00Z",
+   "endsAt": "2026-11-20T19:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Family-Concert-01.webp",
+   "venue": "New Theatre Oxford",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-4e835362406b",
+   "name": "Anthem for Dissatisfaction",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7699,
+   "longitude": -1.27,
+   "summary": "The North Wall Arts Centre",
+   "details": "About Anthem for Dissatisfaction Presented by SkelpieLimmer Productions & Brassneck Theatre Company Written by Gina Donnelly Directed by Gina Donnelly & Tony Devlin Starring Simon Sweeney & Emily Lamey The Credit Crunch, 2007. ‘Irish Twins’ Sarah and Jamie are growing up in Belfast with a shared obsession of music and the weight of parents on the breadline. Oasis, The Jam, Springsteen and Sam Fender songs scream at the state of the nation, tugging at the memories of what it means to grow up on benefits in a country where poverty became a punchline. Benefits Britain never sounded so good… A…",
+   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
+   "website": "https://theoxfordmagazine.com/event/anthem-for-dissatisfaction/",
+   "when": "Fri 20 Nov · 20:00",
+   "startsAt": "2026-11-20T20:00:00Z",
+   "endsAt": "2026-11-20T21:05:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Anthem-for-Dissatisfaction.webp",
+   "venue": "The North Wall Arts Centre",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-483f425c0268",
+   "name": "Christmas Comes Early: The Drag Spuds Cabaret",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7533,
+   "longitude": -1.262,
+   "summary": "Old Fire Station",
+   "details": "The Drag Spuds Cabaret About Christmas Comes Early: The Drag Spuds Cabaret Oxford’s Drag Christmas Cabaret Celebrate the festive season with an unforgettable evening of drag, glamour, and holiday cheer as the Mother of the Oxford drag scene, Cairo Iman Ali, takes centre stage for a spectacular Christmas Cabaret. Joined by the sensational Scarlett Von Kok and the dazzling Sera Tonin, this festive extravaganza brings together some of Oxford’s finest drag talent for a night packed with laughter, lip-syncs, live entertainment, camp Christmas classics, and plenty of seasonal surprises. From…",
+   "address": "Old Fire Station, Oxford, 40 George Street, Oxford, Oxfordshire, OX1 2AQ",
+   "website": "https://theoxfordmagazine.com/event/christmas-comes-early-the-drag-spuds-cabaret/",
+   "when": "Fri 20 Nov · 20:00",
+   "startsAt": "2026-11-20T20:00:00Z",
+   "endsAt": "2026-11-20T22:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Christmas-Comes-Early-The-Drag-Spuds-Cabaret.webp",
+   "venue": "Old Fire Station",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-866ad841082a",
+   "name": "Out of the Deep",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7586,
+   "longitude": -1.2556,
+   "summary": "Oxford University Museum of Natural History",
+   "details": "Out of the Deep About Out of the Deep Every Saturday, families can drop in to the Museum of the History of Science for Out of the Deep, a hands-on session exploring the fascinating world of marine reptiles. Between 11.00am and 1.00pm, visitors of all ages can handle real specimens and learn more about creatures that once lived beneath the waves. The event is free and requires no booking. Please note there are no sessions on 04 April (Easter weekend) or 26 December. Tickets Please see important booking information below. Booking information Ticket prices: Free event Dates & times: Every…",
+   "address": "Oxford University Museum of Natural History, Parks Road, Oxford, Oxfordshire",
+   "website": "https://theoxfordmagazine.com/event/out-of-the-deep/2026-11-21/",
+   "when": "Sat 21 Nov · 11:00",
+   "startsAt": "2026-11-21T11:00:00Z",
+   "endsAt": "2026-11-21T13:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Out-of-the-Deep.webp",
+   "venue": "Oxford University Museum of Natural History",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-a0bfb9f83bda",
+   "name": "Instruments of Time and Truth - Baroque: Celestial Art",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7528,
+   "longitude": -1.2535,
+   "summary": "University Church of St Mary the Virgin",
+   "details": "About Instruments of Time and Truth – Baroque: Celestial Art An 80th Birthday Celebration of Edward Higginbottom On the eve of St Cecilia’s Day, Instruments of Time & Truth and the Oxford Consort of Voices gather in the University Church under Edward Higginbottom for an evening that marks three occasions at once. Henry Purcell’s peerless ode Hail! Bright Cecilia, first heard in 1692, stands beside the Dies irae of Michel-Richard de Lalande, written in 1690 for the funeral rites of the French Dauphine and performed here in the tercentenary year of the composer’s death. Composed within two…",
+   "address": "University Church of St Mary the Virgin, Oxford, The High Street, Oxford, OX1 4BJ",
+   "website": "https://theoxfordmagazine.com/event/instruments-of-time-and-truth-baroque-celestial-art/",
+   "when": "Sat 21 Nov · 18:30",
+   "startsAt": "2026-11-21T18:30:00Z",
+   "endsAt": "2026-11-21T20:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Baroque-Celestial-Art.webp",
+   "venue": "University Church of St Mary the Virgin",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-5736221975ad",
+   "name": "Welsh National Opera - Bluebeard's Castle and Oedipus Rex",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7536,
+   "longitude": -1.2617,
+   "summary": "New Theatre Oxford",
+   "details": "Welsh National Opera – Bluebeard’s Castle and Oedipus Rex About Welsh National Opera – Bluebeard’s Castle and Oedipus Rex In this powerful double bill, two extraordinary works of the 20th century are brought together in a shared world of ritual, mystery and psychological intensity. In Bluebeard’s Castle, Judith leaves everything behind to be with the enigmatic Duke Bluebeard. She soon discovers his home is filled with locked doors and as she demands each one be opened, she uncovers not only the secrets of his past but something far more unsettling. As darkness gathers, love and fear become…",
+   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
+   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-bluebeards-castle-and-oedipus-rex/",
+   "when": "Sat 21 Nov · 19:30",
+   "startsAt": "2026-11-21T19:30:00Z",
+   "endsAt": "2026-11-21T19:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Bluebeards-Castle-and-Oedipus-Rex.webp",
+   "venue": "New Theatre Oxford",
+   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-4530b77294d3",
@@ -57,6 +247,62 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-b9dcee0b7838",
+   "name": "Explore Rachmaninoff & Medtner by candlelight. Recital for voice & piano",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754869,
+   "longitude": -1.24977,
+   "summary": "Classical · Holywell Music Room",
+   "details": "«You are, in my opinion, the greatest composer of our time.»— Sergei Rachmaninoff, writing to Nikolai Medtner On 20th November 2026, in the candlelit intimacy of Oxford’s Holywell Music Room — Europe’s oldest purpose-built concert hall — Red Events presents an Oxford premiere: a recital for voice and piano performed by countertenor Gleb Zakharov and prize-winning pianist Elizaveta Velikhova. An intimate evening of love, longing and discovery. Rachmaninoff can make ecstasy and despair feel inseparable. A melody opens like a confession; a change of harmony turns tenderness into longing. His…",
+   "address": "Holywell St, OX13SE",
+   "website": "https://www.universe.com/events/explore-rachmaninoff-medtner-by-candlelight-recital-for-voice-piano-tickets-WC5P7K?ref=ticketmaster",
+   "when": "Fri 20 Nov · 19:30",
+   "startsAt": "2026-11-20T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "Holywell Music Room",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-f5f6c86c1ee9",
+   "name": "East Oxford Farmers’ & Community Market",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.748603,
+   "longitude": -1.234806,
+   "summary": "East Oxford Primary School",
+   "details": "East Oxford Farmers’ & Community Market About the East Oxford Farmers’ & Community Market The East Oxford Farmers’ & Community Market is a small, friendly local market with plenty of fresh food, delicious sweet and savoury takeaways, dried foods, and a plant-based café. The market also features stalls non-food stalls selling antiques, scarves and shawls, non-plastic household goods, and makeup, plus cleaners and detergents. The majority of the producers are from within 30 miles of Oxford. The market began in August 2006 with just six stalls, and it has since grown into a local institution.…",
+   "address": "East Oxford Primary School, Union Street, Oxford, Oxfordshire, OX4 1JP",
+   "website": "https://theoxfordmagazine.com/event/east-oxford-farmers-community-market/2026-11-21/",
+   "when": "Sat 21 Nov · 10:00",
+   "startsAt": "2026-11-21T10:00:00Z",
+   "endsAt": "2026-11-21T13:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/east-oxford-farmers-and-community-market-1600x900.webp",
+   "venue": "East Oxford Primary School",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-b515f0afc034",
+   "name": "Botley Farmers’ Market, Oxford",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.751394,
+   "longitude": -1.297748,
+   "summary": "West Way Square",
+   "details": "Botley Farmers’ Market, Oxford About Botley Farmers’ Market Botley Farmers’ Market, in Botley, just outside Oxford, takes place every Saturday from 10.00am to 3.00pm. The market is located in the brand new West Way Square, and you can pick up all your locally sourced produce and food. Editorial update We have unconfirmed reports that the Botley Farmer’s Market is permanently closed. If that’s wrong, you can suggest an edit via our contact page.",
+   "address": "West Way Square, Botley Oxford, West Way Square, Botley, Oxford, Oxfordshire",
+   "website": "https://theoxfordmagazine.com/event/botley-farmers-market-oxford/2026-11-21/",
+   "when": "Sat 21 Nov · 10:00",
+   "startsAt": "2026-11-21T10:00:00Z",
+   "endsAt": "2026-11-21T15:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/botley-farmers-market-oxford-01-1600x900-1.webp",
+   "venue": "West Way Square",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
    "id": "ev-87ec7218e758",
    "name": "Reverend & The Makers",
    "categories": [
@@ -73,6 +319,25 @@
    "imageURL": "https://s1.ticketm.net/dam/a/5ac/6d9489c3-9db4-4b1c-b2c8-68447ab545ac_SOURCE",
    "venue": "O2 Academy Oxford",
    "source": "ticketmaster"
+  },
+  {
+   "id": "ev-30413ddb2022",
+   "name": "Saturday Night Comedy at The Glee Club, Oxford",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7476,
+   "longitude": -1.2368,
+   "summary": "The Glee Club",
+   "details": "Saturday Night Comedy at The Glee Club, Oxford About Saturday Night Comedy at The Glee Club, Oxford Treat yourself to a Saturday night of award-winning comedy at The Glee Club in Oxford with four superb stand-up comedians that will keep you laughing until Monday. Lineup:Visit the Glee Club Oxford website for the Saturday Night Comedy lineup. Tickets Please see important booking information below/ Booking information Prices:Full price – £19.00 + booking feeStudent price – £12.00 + booking fee (dated ID required) Tickets are subject to a booking fee of £2.00 Minimum age: 18+This event is for…",
+   "address": "The Glee Club, Oxford, The Bullingdon, 162 Cowley Road, Oxford, Oxfordshire, OX4 1UE",
+   "website": "https://theoxfordmagazine.com/event/saturday-night-comedy-at-the-glee-club-oxford/2026-11-21/",
+   "when": "Sat 21 Nov · 18:30",
+   "startsAt": "2026-11-21T18:30:00Z",
+   "endsAt": "2026-11-21T18:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/the-glee-club-oxford-02-1920x1080-1.webp",
+   "venue": "The Glee Club",
+   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-98634e481505",
@@ -183,24 +448,6 @@
    "source": "ticketmaster"
   },
   {
-   "id": "ev-5346d1b43f57",
-   "name": "December 10",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Pop · O2 Academy Oxford",
-   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/december-10-oxford-08-12-2026/event/3E006553A6D4378E",
-   "when": "Tue 8 Dec · 19:00",
-   "startsAt": "2026-12-08T19:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/b9f/b0822ab8-bb34-4bcd-a630-4fdf510e3b9f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
-  },
-  {
    "id": "ev-0324c3e2cad9",
    "name": "Greg Davies - Full Fat Legend",
    "categories": [
@@ -288,60 +535,6 @@
    "when": "Wed 2 Dec · 19:00",
    "startsAt": "2026-12-02T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/f78/562b9581-2e01-4ce9-9d01-a16d3736ff78_SOURCE",
-   "venue": "New Theatre Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-c54b4ee38b39",
-   "name": "Level 42",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.754,
-   "longitude": -1.26035,
-   "summary": "Rock · New Theatre Oxford",
-   "details": "Live at New Theatre Oxford.",
-   "address": "George Street, OX1 2AG",
-   "website": "https://www.ticketmaster.co.uk/level-42-oxford-03-12-2026/event/36006454AAF45D36",
-   "when": "Thu 3 Dec · 19:00",
-   "startsAt": "2026-12-03T19:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/db5/eb32869f-be25-4a91-898f-2ee648976db5_SOURCE",
-   "venue": "New Theatre Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-3704f476dd7b",
-   "name": "Live at Christmas: Nina Conti & Fern Brady",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.754,
-   "longitude": -1.26035,
-   "summary": "Comedy · New Theatre Oxford",
-   "details": "Live at New Theatre Oxford.",
-   "address": "George Street, OX1 2AG",
-   "website": "https://www.ticketmaster.co.uk/live-at-christmas-nina-conti-fern-oxford-04-12-2026/event/360064C232F46FD9",
-   "when": "Fri 4 Dec · 19:30",
-   "startsAt": "2026-12-04T19:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/a07/736ee1ba-52d2-4259-9a7f-22a6952cfa07_SOURCE",
-   "venue": "New Theatre Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-bc7d9779d740",
-   "name": "Anton Du Beke: Anton at Christmas",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.754,
-   "longitude": -1.26035,
-   "summary": "Dance · New Theatre Oxford",
-   "details": "Live at New Theatre Oxford.",
-   "address": "George Street, OX1 2AG",
-   "website": "https://www.ticketmaster.co.uk/anton-du-beke-anton-at-christmas-oxford-11-12-2026/event/3600651E103190FD",
-   "when": "Fri 11 Dec · 19:30",
-   "startsAt": "2026-12-11T19:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/745/654e4254-a449-46d9-8a2c-10cee3075745_SOURCE",
    "venue": "New Theatre Oxford",
    "source": "ticketmaster"
   },
