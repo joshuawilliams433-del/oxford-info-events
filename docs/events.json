@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-19T14:24:28Z",
- "count": 31,
+ "updated": "2026-11-20T13:58:59Z",
+ "count": 33,
  "events": [
   {
    "id": "evensong",
@@ -21,64 +21,7 @@
    "source": "curated"
   },
   {
-   "id": "ev-2bd6d509d2a7",
-   "name": "Paul Foot: The Future",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7699,
-   "longitude": -1.27,
-   "summary": "The North Wall Arts Centre",
-   "details": "Paul Foot: The Future About Paul Foot: The Future Pioneering alt-comedy hero and star of Cats Does Countdown Paul Foot is back on tour with a brand-new stand-up show. Remember when people were excited for the future? With visions of jetpacks, friendly robots wheeling around, and solar-powered bidets. Well, we don’t have visions like that anymore, do we? As seen on Would I Lie To You?, Never Mind the Buzzcocks and 8 Out of 10 Cats Does Countdown. Reviews “Funnier and more daring than I’ve ever seen him… [has] the audience laughing so hard they’re about to leave their bodies.” ★★★★★ Chortle…",
-   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
-   "website": "https://theoxfordmagazine.com/event/paul-foot-the-future/",
-   "when": "Thu 19 Nov · 19:30",
-   "startsAt": "2026-11-19T19:30:00Z",
-   "endsAt": "2026-11-19T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Paul-Foot-The-Future.webp",
-   "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine"
-  },
-  {
-   "id": "ev-7d2976a80113",
-   "name": "Welsh National Opera - La boheme",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Welsh National Opera – La boheme About Welsh National Opera – La boheme In the Latin Quarter of Paris, four young artists live for the moment, sharing what little they have, chasing big dreams and laughing through the cold. When Rodolfo meets Mimì, a quiet seamstress with a fading light, their connection is instant and unforgettable. But in a world shaped by poverty and passion, love burns brightly but all too briefly. Puccini’s deeply moving masterpiece captures the passion of youth through some of the most beautiful and recognisable music ever written. La bohème evokes the spirit and…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-la-boheme/",
-   "when": "Thu 19 Nov · 19:30",
-   "startsAt": "2026-11-19T19:30:00Z",
-   "endsAt": "2026-11-19T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-La-boheme-01.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine"
-  },
-  {
-   "id": "ev-0dc671a7832c",
-   "name": "Takács Quartet",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7608,
-   "longitude": -1.2626,
-   "summary": "Schwarzman Centre for the Humanities",
-   "details": "Takács Quartet About Takács Quartet Music from across the centuries, in the hands of true chamber music masters. For over fifty years, Takács Quartet has stood at the forefront of chamber music, receiving global acclaim for their innovative performances at the world’s most revered concert halls and collaborations with luminaries such as Philip Seymour Hoffman, Robert Pinsky and more. The group pairs classical cornerstones in Haydn’s Quartet in G major Op.77 No. 1 & Brahms’ Quartet in C minor Op.51 No. 1 with the contemporary voice of Carlos Simon, whose Warmth from Other Suns explores…",
-   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
-   "website": "https://theoxfordmagazine.com/event/takacs-quartet/",
-   "when": "Thu 19 Nov · 19:30",
-   "startsAt": "2026-11-19T19:30:00Z",
-   "endsAt": "2026-11-19T21:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Takacs-Quartet.webp",
-   "venue": "Schwarzman Centre for the Humanities",
-   "source": "The Oxford Magazine"
-  },
-  {
-   "id": "ev-16cdc5905c7e",
+   "id": "ev-ec1b4d552129",
    "name": "corto.alto",
    "categories": [
     "events"
@@ -94,10 +37,10 @@
    "endsAt": "2026-11-20T18:30:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/corto.alto_.webp",
    "venue": "O2 Academy Oxford",
-   "source": "The Oxford Magazine (more)"
+   "source": "The Oxford Magazine"
   },
   {
-   "id": "ev-6b2e3636dcea",
+   "id": "ev-8cf715854ac9",
    "name": "Welsh National Opera - Family Concert",
    "categories": [
     "events"
@@ -113,10 +56,10 @@
    "endsAt": "2026-11-20T19:30:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Family-Concert-01.webp",
    "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine (more)"
+   "source": "The Oxford Magazine"
   },
   {
-   "id": "ev-4e835362406b",
+   "id": "ev-c124ec449661",
    "name": "Anthem for Dissatisfaction",
    "categories": [
     "events"
@@ -132,7 +75,7 @@
    "endsAt": "2026-11-20T21:05:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Anthem-for-Dissatisfaction.webp",
    "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine (more)"
+   "source": "The Oxford Magazine"
   },
   {
    "id": "ev-483f425c0268",
@@ -211,22 +154,61 @@
    "source": "The Oxford Magazine (more)"
   },
   {
-   "id": "ev-4530b77294d3",
-   "name": "Little Angels Big Bad and Back Tour",
+   "id": "ev-a22ab0b6293b",
+   "name": "Oxford Coffee Concerts: Samrat Majumber",
    "categories": [
     "events"
    ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Metal · O2 Academy Oxford",
-   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/little-angels-big-bad-and-back-oxford-19-11-2026/event/3E006436E50E5884",
-   "when": "Thu 19 Nov · 19:00",
-   "startsAt": "2026-11-19T19:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/d82/4a58c6a0-f206-4e65-88e4-6d902676dd82_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
+   "latitude": 51.7552,
+   "longitude": -1.2522,
+   "summary": "Holywell Music Room",
+   "details": "About Oxford Coffee Concerts: Samrat Majumber Samrat Majumder (guitar) Fernando Sor: Trois Études, op 35 nos 22, 13 and 17 Fernando Sor: Grand Solo, op 14 Fernando Sor: Six Airs choisis de l’opéra de Mozart “Il Flauto Magico”, op 19 Regondi: Introduction et Caprice, op 23 Schubert: Drei Lieder Lob der Tränen, D 711 Der Wanderer an den Mond, D 870 Litanei auf das Fest Aller Seelen, D 343 This superb series of chamber music concerts was established in the 1986 in the amazing Holywell Music Room – the oldest concert hall in Europe. The concerts are every Sunday morning at 11.15am with coffee…",
+   "address": "Holywell Music Room, Holywell Road, Oxford, Oxfordshire, OX1 3SD",
+   "website": "https://theoxfordmagazine.com/event/oxford-coffee-concerts-samrat-majumber/",
+   "when": "Sun 22 Nov · 12:15",
+   "startsAt": "2026-11-22T12:15:00Z",
+   "endsAt": "2026-11-22T14:15:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/760x535-Samrat-Majumder-e1791781184792.webp",
+   "venue": "Holywell Music Room",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-fed89784297d",
+   "name": "Family-Friendly Sundays",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7586,
+   "longitude": -1.2556,
+   "summary": "Oxford University Museum of Natural History",
+   "details": "Family-Friendly Sundays About Family-Friendly Sundays Join the museum every Sunday afternoon for nature-themed activities, crafts, family-friendly trails, and more! All provided by Museum volunteers. Tickets Please see important booking information below. Booking information Ticket prices: Free event Dates & times: Every Sunday at 2.00pm, except 27 December 2026 Running time: 2 hours Age guidance: Suitable for all ages. Good to know: Free event. No booking required. Accessibility information: Wheelchair accessible? – Yes Hearing loops? – No Seating? – Yes Refreshments? – No Flashing lights? –…",
+   "address": "Oxford University Museum of Natural History, Parks Road, Oxford, Oxfordshire",
+   "website": "https://theoxfordmagazine.com/event/family-friendly-sundays-2/2026-11-22/",
+   "when": "Sun 22 Nov · 14:00",
+   "startsAt": "2026-11-22T14:00:00Z",
+   "endsAt": "2026-11-22T16:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Family-Friendly-Sundays.webp",
+   "venue": "Oxford University Museum of Natural History",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-76abfa8c828a",
+   "name": "Gareth Malone",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.7536,
+   "longitude": -1.2617,
+   "summary": "New Theatre Oxford",
+   "details": "Gareth Malone About Gareth Malone Lights, camera, sing! Britain’s favourite choirmaster Gareth Malone OBE returns with brand-new tour. An immersive celebration of the greatest songs from the movies and the joy of singing together. Gareth Malone – the man who got the nation singing – is back on the road this autumn with Sing-A-Long-A-Gareth: At The Movies, a brand-new live show celebrating the unforgettable songs that have helped make movie moments magical. Gareth Malone Following the success of last year’s singalong tour, which saw thousands of people across the country fill theatres with…",
+   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
+   "website": "https://theoxfordmagazine.com/event/gareth-malone/",
+   "when": "Sun 22 Nov · 16:00",
+   "startsAt": "2026-11-22T16:00:00Z",
+   "endsAt": "2026-11-22T16:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Gareth-Malone-01.webp",
+   "venue": "New Theatre Oxford",
+   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-adbc5952488c",
@@ -289,8 +271,8 @@
    "categories": [
     "events"
    ],
-   "latitude": 51.751394,
-   "longitude": -1.297748,
+   "latitude": 51.751297,
+   "longitude": -1.297917,
    "summary": "West Way Square",
    "details": "Botley Farmers’ Market, Oxford About Botley Farmers’ Market Botley Farmers’ Market, in Botley, just outside Oxford, takes place every Saturday from 10.00am to 3.00pm. The market is located in the brand new West Way Square, and you can pick up all your locally sourced produce and food. Editorial update We have unconfirmed reports that the Botley Farmer’s Market is permanently closed. If that’s wrong, you can suggest an edit via our contact page.",
    "address": "West Way Square, Botley Oxford, West Way Square, Botley, Oxford, Oxfordshire",
@@ -337,6 +319,44 @@
    "endsAt": "2026-11-21T18:30:00Z",
    "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/the-glee-club-oxford-02-1920x1080-1.webp",
    "venue": "The Glee Club",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-6577e80b8330",
+   "name": "Wolvercote Community Market",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.783805,
+   "longitude": -1.293162,
+   "summary": "The White Hart Wolvercote",
+   "details": "Wolvercote Community Market About Wolvercote Community Market Established in 2002, Wolvercote Community Market is the longest running Farmers’ Market in Oxford, and one of three in the North Oxford area. The market aims to provide the community with locally-produced great tasting food. The Sunday market serves the community and visitors by providing fresh, affordable and ethically sourced food as well as a place to meet, eat and socialise with friends and neighbours. It also provides a free marketplace for local producers and crafts people. Regular stallholders bring fresh fruit and veg,…",
+   "address": "The White Hart Wolvercote, 126 Godstow Road, Oxford, Oxfordshire, OX2 8PQ",
+   "website": "https://theoxfordmagazine.com/event/wolvercote-community-market/2026-11-22/",
+   "when": "Sun 22 Nov · 10:00",
+   "startsAt": "2026-11-22T10:00:00Z",
+   "endsAt": "2026-11-22T12:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/wolvercote-sunday-market-1600x900.webp",
+   "venue": "The White Hart Wolvercote",
+   "source": "The Oxford Magazine (more)"
+  },
+  {
+   "id": "ev-fd8cff9293a5",
+   "name": "South Oxford Farmers and Community Market",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.73909,
+   "longitude": -1.256653,
+   "summary": "South Oxford Community Centre",
+   "details": "South Oxford Farmers and Community Market About the South Oxford Farmers and Community Market The South Oxford Farmers and Community Market is a weekly market selling local, seasonal food and non-food goods. ‘Local’ means produced within a 30-mile radius of Oxford and ‘produced’ means containing a significant quantity of local ingredients and labour although locality rules do not necessarily apply to ethical enterprises such as Fairtrade or similar organisations. The market also supports the resale of locally-sourced second-hand products such as books and clothing. The market is held every…",
+   "address": "South Oxford Community Centre, Lake Street, Oxford, Oxfordshire, OX1 4RP",
+   "website": "https://theoxfordmagazine.com/event/south-oxford-farmers-and-community-market/2026-11-22/",
+   "when": "Sun 22 Nov · 10:00",
+   "startsAt": "2026-11-22T10:00:00Z",
+   "endsAt": "2026-11-22T14:00:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/south-oxford-farmers-and-community-market-1600x900.webp",
+   "venue": "South Oxford Community Centre",
    "source": "The Oxford Magazine (more)"
   },
   {
@@ -444,6 +464,24 @@
    "when": "Sat 5 Dec · 18:30",
    "startsAt": "2026-12-05T18:30:00Z",
    "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-5346d1b43f57",
+   "name": "December 10",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Pop · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth: 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/december-10-oxford-08-12-2026/event/3E006553A6D4378E",
+   "when": "Tue 8 Dec · 19:00",
+   "startsAt": "2026-12-08T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/b9f/b0822ab8-bb34-4bcd-a630-4fdf510e3b9f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "O2 Academy Oxford",
    "source": "ticketmaster"
   },
