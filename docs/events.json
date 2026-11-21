@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20T13:58:59Z",
- "count": 33,
+ "updated": "2026-11-21T13:26:39Z",
+ "count": 28,
  "events": [
   {
    "id": "evensong",
@@ -19,101 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-ec1b4d552129",
-   "name": "corto.alto",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7488,
-   "longitude": -1.2402,
-   "summary": "O2 Academy Oxford",
-   "details": "corto.alto About corto.alto Innovative jazz fusion project corto.alto brings a boundary-pushing live set that blends jazz, broken beat, electronic textures and improvisation into a dynamic, modern sound. Led by Glasgow-based musician Liam Shortall, corto.alto has built a reputation for genre-defying performances that move fluidly between groove-heavy rhythms, atmospheric passages and explosive improvisational sections. Expect rich instrumentation, intricate musicianship and a constantly evolving live experience. This is contemporary jazz at its most forward-thinking — immersive, rhythmic and…",
-   "address": "O2 Academy Oxford, 190 Cowley Road, Oxford, Oxfordshire, OX4 1UE, United Kingdom",
-   "website": "https://theoxfordmagazine.com/event/corto-alto/",
-   "when": "Fri 20 Nov · 18:30",
-   "startsAt": "2026-11-20T18:30:00Z",
-   "endsAt": "2026-11-20T18:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/corto.alto_.webp",
-   "venue": "O2 Academy Oxford",
-   "source": "The Oxford Magazine"
-  },
-  {
-   "id": "ev-8cf715854ac9",
-   "name": "Welsh National Opera - Family Concert",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Welsh National Opera – Family Concert About Welsh National Opera – Family Concert Welsh National Opera’s Family Concert is back with a vibrant and welcoming introduction to live orchestral music. Hosted by Elin Llwyd, the concert blends well-known favourites brought to life by WNO Orchestra, alongside a group of outstanding soloists performing recognisable pieces for all the family. Offenbach’s energetic Can-Can brings a sense of joy and familiarity, encouraging young audiences to connect straight away while Beethoven’s music from Prometheus stands out with its bold, cinematic quality almost…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-family-concert/",
-   "when": "Fri 20 Nov · 19:30",
-   "startsAt": "2026-11-20T19:30:00Z",
-   "endsAt": "2026-11-20T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Family-Concert-01.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine"
-  },
-  {
-   "id": "ev-c124ec449661",
-   "name": "Anthem for Dissatisfaction",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7699,
-   "longitude": -1.27,
-   "summary": "The North Wall Arts Centre",
-   "details": "About Anthem for Dissatisfaction Presented by SkelpieLimmer Productions & Brassneck Theatre Company Written by Gina Donnelly Directed by Gina Donnelly & Tony Devlin Starring Simon Sweeney & Emily Lamey The Credit Crunch, 2007. ‘Irish Twins’ Sarah and Jamie are growing up in Belfast with a shared obsession of music and the weight of parents on the breadline. Oasis, The Jam, Springsteen and Sam Fender songs scream at the state of the nation, tugging at the memories of what it means to grow up on benefits in a country where poverty became a punchline. Benefits Britain never sounded so good… A…",
-   "address": "The North Wall Arts Centre, South Parade, Oxford, OX2 7JN",
-   "website": "https://theoxfordmagazine.com/event/anthem-for-dissatisfaction/",
-   "when": "Fri 20 Nov · 20:00",
-   "startsAt": "2026-11-20T20:00:00Z",
-   "endsAt": "2026-11-20T21:05:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Anthem-for-Dissatisfaction.webp",
-   "venue": "The North Wall Arts Centre",
-   "source": "The Oxford Magazine"
-  },
-  {
-   "id": "ev-483f425c0268",
-   "name": "Christmas Comes Early: The Drag Spuds Cabaret",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7533,
-   "longitude": -1.262,
-   "summary": "Old Fire Station",
-   "details": "The Drag Spuds Cabaret About Christmas Comes Early: The Drag Spuds Cabaret Oxford’s Drag Christmas Cabaret Celebrate the festive season with an unforgettable evening of drag, glamour, and holiday cheer as the Mother of the Oxford drag scene, Cairo Iman Ali, takes centre stage for a spectacular Christmas Cabaret. Joined by the sensational Scarlett Von Kok and the dazzling Sera Tonin, this festive extravaganza brings together some of Oxford’s finest drag talent for a night packed with laughter, lip-syncs, live entertainment, camp Christmas classics, and plenty of seasonal surprises. From…",
-   "address": "Old Fire Station, Oxford, 40 George Street, Oxford, Oxfordshire, OX1 2AQ",
-   "website": "https://theoxfordmagazine.com/event/christmas-comes-early-the-drag-spuds-cabaret/",
-   "when": "Fri 20 Nov · 20:00",
-   "startsAt": "2026-11-20T20:00:00Z",
-   "endsAt": "2026-11-20T22:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Christmas-Comes-Early-The-Drag-Spuds-Cabaret.webp",
-   "venue": "Old Fire Station",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-866ad841082a",
-   "name": "Out of the Deep",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7586,
-   "longitude": -1.2556,
-   "summary": "Oxford University Museum of Natural History",
-   "details": "Out of the Deep About Out of the Deep Every Saturday, families can drop in to the Museum of the History of Science for Out of the Deep, a hands-on session exploring the fascinating world of marine reptiles. Between 11.00am and 1.00pm, visitors of all ages can handle real specimens and learn more about creatures that once lived beneath the waves. The event is free and requires no booking. Please note there are no sessions on 04 April (Easter weekend) or 26 December. Tickets Please see important booking information below. Booking information Ticket prices: Free event Dates & times: Every…",
-   "address": "Oxford University Museum of Natural History, Parks Road, Oxford, Oxfordshire",
-   "website": "https://theoxfordmagazine.com/event/out-of-the-deep/2026-11-21/",
-   "when": "Sat 21 Nov · 11:00",
-   "startsAt": "2026-11-21T11:00:00Z",
-   "endsAt": "2026-11-21T13:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Out-of-the-Deep.webp",
-   "venue": "Oxford University Museum of Natural History",
-   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-a0bfb9f83bda",
@@ -211,77 +116,22 @@
    "source": "The Oxford Magazine (more)"
   },
   {
-   "id": "ev-adbc5952488c",
-   "name": "Yard Act",
+   "id": "ev-256628bd600f",
+   "name": "A History of Utopia with Kim Stanley Robinson and Brian Eno",
    "categories": [
     "events"
    ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy Oxford",
-   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height - 28.7cm Width - 21cm Depth - 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/yard-act-oxford-20-11-2026/event/3E0064A1CAC53D6F",
-   "when": "Fri 20 Nov · 18:30",
-   "startsAt": "2026-11-20T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/0c2/d3897812-293b-4eec-807e-b53f6259e0c2_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-b9dcee0b7838",
-   "name": "Explore Rachmaninoff & Medtner by candlelight. Recital for voice & piano",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.754869,
-   "longitude": -1.24977,
-   "summary": "Classical · Holywell Music Room",
-   "details": "«You are, in my opinion, the greatest composer of our time.»— Sergei Rachmaninoff, writing to Nikolai Medtner On 20th November 2026, in the candlelit intimacy of Oxford’s Holywell Music Room — Europe’s oldest purpose-built concert hall — Red Events presents an Oxford premiere: a recital for voice and piano performed by countertenor Gleb Zakharov and prize-winning pianist Elizaveta Velikhova. An intimate evening of love, longing and discovery. Rachmaninoff can make ecstasy and despair feel inseparable. A melody opens like a confession; a change of harmony turns tenderness into longing. His…",
-   "address": "Holywell St, OX13SE",
-   "website": "https://www.universe.com/events/explore-rachmaninoff-medtner-by-candlelight-recital-for-voice-piano-tickets-WC5P7K?ref=ticketmaster",
-   "when": "Fri 20 Nov · 19:30",
-   "startsAt": "2026-11-20T19:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/c/518/83a05c63-479c-4f7e-a7aa-1932aab77518_105461_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "Holywell Music Room",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-f5f6c86c1ee9",
-   "name": "East Oxford Farmers’ & Community Market",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.748603,
-   "longitude": -1.234806,
-   "summary": "East Oxford Primary School",
-   "details": "East Oxford Farmers’ & Community Market About the East Oxford Farmers’ & Community Market The East Oxford Farmers’ & Community Market is a small, friendly local market with plenty of fresh food, delicious sweet and savoury takeaways, dried foods, and a plant-based café. The market also features stalls non-food stalls selling antiques, scarves and shawls, non-plastic household goods, and makeup, plus cleaners and detergents. The majority of the producers are from within 30 miles of Oxford. The market began in August 2006 with just six stalls, and it has since grown into a local institution.…",
-   "address": "East Oxford Primary School, Union Street, Oxford, Oxfordshire, OX4 1JP",
-   "website": "https://theoxfordmagazine.com/event/east-oxford-farmers-community-market/2026-11-21/",
-   "when": "Sat 21 Nov · 10:00",
-   "startsAt": "2026-11-21T10:00:00Z",
-   "endsAt": "2026-11-21T13:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/east-oxford-farmers-and-community-market-1600x900.webp",
-   "venue": "East Oxford Primary School",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-b515f0afc034",
-   "name": "Botley Farmers’ Market, Oxford",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.751297,
-   "longitude": -1.297917,
-   "summary": "West Way Square",
-   "details": "Botley Farmers’ Market, Oxford About Botley Farmers’ Market Botley Farmers’ Market, in Botley, just outside Oxford, takes place every Saturday from 10.00am to 3.00pm. The market is located in the brand new West Way Square, and you can pick up all your locally sourced produce and food. Editorial update We have unconfirmed reports that the Botley Farmer’s Market is permanently closed. If that’s wrong, you can suggest an edit via our contact page.",
-   "address": "West Way Square, Botley Oxford, West Way Square, Botley, Oxford, Oxfordshire",
-   "website": "https://theoxfordmagazine.com/event/botley-farmers-market-oxford/2026-11-21/",
-   "when": "Sat 21 Nov · 10:00",
-   "startsAt": "2026-11-21T10:00:00Z",
-   "endsAt": "2026-11-21T15:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/botley-farmers-market-oxford-01-1600x900-1.webp",
-   "venue": "West Way Square",
+   "latitude": 51.7608,
+   "longitude": -1.2626,
+   "summary": "Schwarzman Centre for the Humanities",
+   "details": "A History of Utopia with Kim Stanley Robinson and Brian Eno About A History of Utopia with Kim Stanley Robinson and Brian Eno What does it mean to build a liveable future – and who gets to imagine it? Since its creation by Thomas More in his 1516 work of political fiction, the concept of utopia has appeared throughout politics, philosophy and culture. In this unique collaboration as part of Oxford Ministry for the Future’s two-day takeover of the Schwarzman Centre, Brian Eno and Kim Stanley Robinson curate a journey through the history of utopian thought – from ancient philosophy to climate…",
+   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
+   "website": "https://theoxfordmagazine.com/event/a-history-of-utopia-with-kim-stanley-robinson-and-brian-eno/",
+   "when": "Mon 23 Nov · 19:00",
+   "startsAt": "2026-11-23T19:00:00Z",
+   "endsAt": "2026-11-23T20:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/A-History-of-Utopia-with-Kim-Stanley-Robinson-and-Brian-Eno.webp",
+   "venue": "Schwarzman Centre for the Humanities",
    "source": "The Oxford Magazine (more)"
   },
   {
@@ -486,6 +336,42 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-d9c5230d4ec6",
+   "name": "Craig Charles Funk & Soul House Party",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/craig-charles-funk-soul-house-party-oxford-11-12-2026/event/3E00648ECB505D90",
+   "when": "Fri 11 Dec · 19:00",
+   "startsAt": "2026-12-11T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/3a2/077a0d9c-4ce8-457f-b080-285518a923a2_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-a786a73cfec2",
+   "name": "Dave Hill's Slade",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Rock · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/dave-hills-slade-oxford-12-12-2026/event/3E0064A5C5D64EFF",
+   "when": "Sat 12 Dec · 18:30",
+   "startsAt": "2026-12-12T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/246/c444cca6-9535-4702-9eae-9ceeafb53246_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-0324c3e2cad9",
    "name": "Greg Davies - Full Fat Legend",
    "categories": [
@@ -573,6 +459,24 @@
    "when": "Wed 2 Dec · 19:00",
    "startsAt": "2026-12-02T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/f78/562b9581-2e01-4ce9-9d01-a16d3736ff78_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-c54b4ee38b39",
+   "name": "Level 42",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Rock · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/level-42-oxford-03-12-2026/event/36006454AAF45D36",
+   "when": "Thu 3 Dec · 19:00",
+   "startsAt": "2026-12-03T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/db5/eb32869f-be25-4a91-898f-2ee648976db5_SOURCE",
    "venue": "New Theatre Oxford",
    "source": "ticketmaster"
   },
