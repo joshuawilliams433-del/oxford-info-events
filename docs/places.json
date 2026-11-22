@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:37:29Z",
+ "updated": "2026-11-22T13:19:16Z",
  "count": 578,
  "places": [
   {
@@ -252,8 +252,8 @@
    "summary": "Lebanese restaurant · Walton Crescent",
    "details": "Takeaway · Vegan, Vegetarian options",
    "address": "25 Walton Crescent, OX1 2JG",
-   "hours": "Mo-Fr 17:00-21:30; Sa-Su 12:00-21:30",
-   "website": "https://www.al-shami.co.uk/",
+   "hours": "Mo-Fr 17:00-22:00; Sa-Su 12:00-22:00",
+   "website": "https://alshamioxford.com/",
    "phone": "+44 1865 310066",
    "kind": "restaurant",
    "cuisines": [
@@ -8618,6 +8618,7 @@
    "details": "Pub · St Aldate's",
    "address": "108 St Aldate's, OX1 1BU",
    "hours": "Mo-Sa 12:00-23:00; Su 12:00-22:00",
+   "website": "https://www.staldatestavernoxford.co.uk/",
    "kind": "pub",
    "chain": false,
    "source": "osm"

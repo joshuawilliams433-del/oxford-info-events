@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T13:26:39Z",
- "count": 28,
+ "updated": "2026-11-22T13:18:39Z",
+ "count": 21,
  "events": [
   {
    "id": "evensong",
@@ -19,195 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-a0bfb9f83bda",
-   "name": "Instruments of Time and Truth - Baroque: Celestial Art",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7528,
-   "longitude": -1.2535,
-   "summary": "University Church of St Mary the Virgin",
-   "details": "About Instruments of Time and Truth – Baroque: Celestial Art An 80th Birthday Celebration of Edward Higginbottom On the eve of St Cecilia’s Day, Instruments of Time & Truth and the Oxford Consort of Voices gather in the University Church under Edward Higginbottom for an evening that marks three occasions at once. Henry Purcell’s peerless ode Hail! Bright Cecilia, first heard in 1692, stands beside the Dies irae of Michel-Richard de Lalande, written in 1690 for the funeral rites of the French Dauphine and performed here in the tercentenary year of the composer’s death. Composed within two…",
-   "address": "University Church of St Mary the Virgin, Oxford, The High Street, Oxford, OX1 4BJ",
-   "website": "https://theoxfordmagazine.com/event/instruments-of-time-and-truth-baroque-celestial-art/",
-   "when": "Sat 21 Nov · 18:30",
-   "startsAt": "2026-11-21T18:30:00Z",
-   "endsAt": "2026-11-21T20:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Baroque-Celestial-Art.webp",
-   "venue": "University Church of St Mary the Virgin",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-5736221975ad",
-   "name": "Welsh National Opera - Bluebeard's Castle and Oedipus Rex",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Welsh National Opera – Bluebeard’s Castle and Oedipus Rex About Welsh National Opera – Bluebeard’s Castle and Oedipus Rex In this powerful double bill, two extraordinary works of the 20th century are brought together in a shared world of ritual, mystery and psychological intensity. In Bluebeard’s Castle, Judith leaves everything behind to be with the enigmatic Duke Bluebeard. She soon discovers his home is filled with locked doors and as she demands each one be opened, she uncovers not only the secrets of his past but something far more unsettling. As darkness gathers, love and fear become…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/welsh-national-opera-bluebeards-castle-and-oedipus-rex/",
-   "when": "Sat 21 Nov · 19:30",
-   "startsAt": "2026-11-21T19:30:00Z",
-   "endsAt": "2026-11-21T19:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Welsh-National-Opera-Bluebeards-Castle-and-Oedipus-Rex.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-a22ab0b6293b",
-   "name": "Oxford Coffee Concerts: Samrat Majumber",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7552,
-   "longitude": -1.2522,
-   "summary": "Holywell Music Room",
-   "details": "About Oxford Coffee Concerts: Samrat Majumber Samrat Majumder (guitar) Fernando Sor: Trois Études, op 35 nos 22, 13 and 17 Fernando Sor: Grand Solo, op 14 Fernando Sor: Six Airs choisis de l’opéra de Mozart “Il Flauto Magico”, op 19 Regondi: Introduction et Caprice, op 23 Schubert: Drei Lieder Lob der Tränen, D 711 Der Wanderer an den Mond, D 870 Litanei auf das Fest Aller Seelen, D 343 This superb series of chamber music concerts was established in the 1986 in the amazing Holywell Music Room – the oldest concert hall in Europe. The concerts are every Sunday morning at 11.15am with coffee…",
-   "address": "Holywell Music Room, Holywell Road, Oxford, Oxfordshire, OX1 3SD",
-   "website": "https://theoxfordmagazine.com/event/oxford-coffee-concerts-samrat-majumber/",
-   "when": "Sun 22 Nov · 12:15",
-   "startsAt": "2026-11-22T12:15:00Z",
-   "endsAt": "2026-11-22T14:15:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/760x535-Samrat-Majumder-e1791781184792.webp",
-   "venue": "Holywell Music Room",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-fed89784297d",
-   "name": "Family-Friendly Sundays",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7586,
-   "longitude": -1.2556,
-   "summary": "Oxford University Museum of Natural History",
-   "details": "Family-Friendly Sundays About Family-Friendly Sundays Join the museum every Sunday afternoon for nature-themed activities, crafts, family-friendly trails, and more! All provided by Museum volunteers. Tickets Please see important booking information below. Booking information Ticket prices: Free event Dates & times: Every Sunday at 2.00pm, except 27 December 2026 Running time: 2 hours Age guidance: Suitable for all ages. Good to know: Free event. No booking required. Accessibility information: Wheelchair accessible? – Yes Hearing loops? – No Seating? – Yes Refreshments? – No Flashing lights? –…",
-   "address": "Oxford University Museum of Natural History, Parks Road, Oxford, Oxfordshire",
-   "website": "https://theoxfordmagazine.com/event/family-friendly-sundays-2/2026-11-22/",
-   "when": "Sun 22 Nov · 14:00",
-   "startsAt": "2026-11-22T14:00:00Z",
-   "endsAt": "2026-11-22T16:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Family-Friendly-Sundays.webp",
-   "venue": "Oxford University Museum of Natural History",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-76abfa8c828a",
-   "name": "Gareth Malone",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7536,
-   "longitude": -1.2617,
-   "summary": "New Theatre Oxford",
-   "details": "Gareth Malone About Gareth Malone Lights, camera, sing! Britain’s favourite choirmaster Gareth Malone OBE returns with brand-new tour. An immersive celebration of the greatest songs from the movies and the joy of singing together. Gareth Malone – the man who got the nation singing – is back on the road this autumn with Sing-A-Long-A-Gareth: At The Movies, a brand-new live show celebrating the unforgettable songs that have helped make movie moments magical. Gareth Malone Following the success of last year’s singalong tour, which saw thousands of people across the country fill theatres with…",
-   "address": "New Theatre Oxford, 24-26 George Street, Oxford, Oxfordshire, OX1 2AG",
-   "website": "https://theoxfordmagazine.com/event/gareth-malone/",
-   "when": "Sun 22 Nov · 16:00",
-   "startsAt": "2026-11-22T16:00:00Z",
-   "endsAt": "2026-11-22T16:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/Gareth-Malone-01.webp",
-   "venue": "New Theatre Oxford",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-256628bd600f",
-   "name": "A History of Utopia with Kim Stanley Robinson and Brian Eno",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7608,
-   "longitude": -1.2626,
-   "summary": "Schwarzman Centre for the Humanities",
-   "details": "A History of Utopia with Kim Stanley Robinson and Brian Eno About A History of Utopia with Kim Stanley Robinson and Brian Eno What does it mean to build a liveable future – and who gets to imagine it? Since its creation by Thomas More in his 1516 work of political fiction, the concept of utopia has appeared throughout politics, philosophy and culture. In this unique collaboration as part of Oxford Ministry for the Future’s two-day takeover of the Schwarzman Centre, Brian Eno and Kim Stanley Robinson curate a journey through the history of utopian thought – from ancient philosophy to climate…",
-   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
-   "website": "https://theoxfordmagazine.com/event/a-history-of-utopia-with-kim-stanley-robinson-and-brian-eno/",
-   "when": "Mon 23 Nov · 19:00",
-   "startsAt": "2026-11-23T19:00:00Z",
-   "endsAt": "2026-11-23T20:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/A-History-of-Utopia-with-Kim-Stanley-Robinson-and-Brian-Eno.webp",
-   "venue": "Schwarzman Centre for the Humanities",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-87ec7218e758",
-   "name": "Reverend & The Makers",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy Oxford",
-   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/reverend-the-makers-oxford-21-11-2026/event/3E006490DACD4E39",
-   "when": "Sat 21 Nov · 18:30",
-   "startsAt": "2026-11-21T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/5ac/6d9489c3-9db4-4b1c-b2c8-68447ab545ac_SOURCE",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
-  },
-  {
-   "id": "ev-30413ddb2022",
-   "name": "Saturday Night Comedy at The Glee Club, Oxford",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7476,
-   "longitude": -1.2368,
-   "summary": "The Glee Club",
-   "details": "Saturday Night Comedy at The Glee Club, Oxford About Saturday Night Comedy at The Glee Club, Oxford Treat yourself to a Saturday night of award-winning comedy at The Glee Club in Oxford with four superb stand-up comedians that will keep you laughing until Monday. Lineup:Visit the Glee Club Oxford website for the Saturday Night Comedy lineup. Tickets Please see important booking information below/ Booking information Prices:Full price – £19.00 + booking feeStudent price – £12.00 + booking fee (dated ID required) Tickets are subject to a booking fee of £2.00 Minimum age: 18+This event is for…",
-   "address": "The Glee Club, Oxford, The Bullingdon, 162 Cowley Road, Oxford, Oxfordshire, OX4 1UE",
-   "website": "https://theoxfordmagazine.com/event/saturday-night-comedy-at-the-glee-club-oxford/2026-11-21/",
-   "when": "Sat 21 Nov · 18:30",
-   "startsAt": "2026-11-21T18:30:00Z",
-   "endsAt": "2026-11-21T18:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/the-glee-club-oxford-02-1920x1080-1.webp",
-   "venue": "The Glee Club",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-6577e80b8330",
-   "name": "Wolvercote Community Market",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.783805,
-   "longitude": -1.293162,
-   "summary": "The White Hart Wolvercote",
-   "details": "Wolvercote Community Market About Wolvercote Community Market Established in 2002, Wolvercote Community Market is the longest running Farmers’ Market in Oxford, and one of three in the North Oxford area. The market aims to provide the community with locally-produced great tasting food. The Sunday market serves the community and visitors by providing fresh, affordable and ethically sourced food as well as a place to meet, eat and socialise with friends and neighbours. It also provides a free marketplace for local producers and crafts people. Regular stallholders bring fresh fruit and veg,…",
-   "address": "The White Hart Wolvercote, 126 Godstow Road, Oxford, Oxfordshire, OX2 8PQ",
-   "website": "https://theoxfordmagazine.com/event/wolvercote-community-market/2026-11-22/",
-   "when": "Sun 22 Nov · 10:00",
-   "startsAt": "2026-11-22T10:00:00Z",
-   "endsAt": "2026-11-22T12:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/wolvercote-sunday-market-1600x900.webp",
-   "venue": "The White Hart Wolvercote",
-   "source": "The Oxford Magazine (more)"
-  },
-  {
-   "id": "ev-fd8cff9293a5",
-   "name": "South Oxford Farmers and Community Market",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.73909,
-   "longitude": -1.256653,
-   "summary": "South Oxford Community Centre",
-   "details": "South Oxford Farmers and Community Market About the South Oxford Farmers and Community Market The South Oxford Farmers and Community Market is a weekly market selling local, seasonal food and non-food goods. ‘Local’ means produced within a 30-mile radius of Oxford and ‘produced’ means containing a significant quantity of local ingredients and labour although locality rules do not necessarily apply to ethical enterprises such as Fairtrade or similar organisations. The market also supports the resale of locally-sourced second-hand products such as books and clothing. The market is held every…",
-   "address": "South Oxford Community Centre, Lake Street, Oxford, Oxfordshire, OX1 4RP",
-   "website": "https://theoxfordmagazine.com/event/south-oxford-farmers-and-community-market/2026-11-22/",
-   "when": "Sun 22 Nov · 10:00",
-   "startsAt": "2026-11-22T10:00:00Z",
-   "endsAt": "2026-11-22T14:00:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/south-oxford-farmers-and-community-market-1600x900.webp",
-   "venue": "South Oxford Community Centre",
-   "source": "The Oxford Magazine (more)"
   },
   {
    "id": "ev-98634e481505",
@@ -391,6 +202,24 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-3e5c93ec5b55",
+   "name": "Ghostface Killah",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "Hip-Hop/Rap · O2 Academy Oxford",
+   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/ghostface-killah-oxford-15-12-2026/event/3E00653CBA3253FF",
+   "when": "Tue 15 Dec · 19:00",
+   "startsAt": "2026-12-15T19:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/270/0b11572c-e377-4caf-96dd-51b83b6c6270_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-24dd13b17486",
    "name": "The Music of The Lord of The Rings. Tribute to Howard Shore by candlelight",
    "categories": [
@@ -477,6 +306,42 @@
    "when": "Thu 3 Dec · 19:00",
    "startsAt": "2026-12-03T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/db5/eb32869f-be25-4a91-898f-2ee648976db5_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-3704f476dd7b",
+   "name": "Live at Christmas: Nina Conti & Fern Brady",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Comedy · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/live-at-christmas-nina-conti-fern-oxford-04-12-2026/event/360064C232F46FD9",
+   "when": "Fri 4 Dec · 19:30",
+   "startsAt": "2026-12-04T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/a07/736ee1ba-52d2-4259-9a7f-22a6952cfa07_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-bc7d9779d740",
+   "name": "Anton Du Beke: Anton at Christmas",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Dance · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/anton-du-beke-anton-at-christmas-oxford-11-12-2026/event/3600651E103190FD",
+   "when": "Fri 11 Dec · 19:30",
+   "startsAt": "2026-12-11T19:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/745/654e4254-a449-46d9-8a2c-10cee3075745_SOURCE",
    "venue": "New Theatre Oxford",
    "source": "ticketmaster"
   },
