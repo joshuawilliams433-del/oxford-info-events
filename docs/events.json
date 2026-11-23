@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T13:18:39Z",
- "count": 21,
+ "updated": "2026-11-23T15:56:03Z",
+ "count": 23,
  "events": [
   {
    "id": "evensong",
@@ -21,22 +21,23 @@
    "source": "curated"
   },
   {
-   "id": "ev-98634e481505",
-   "name": "Gareth Malone - Sing-A-Long-A-Gareth: At The Movies",
+   "id": "ev-591bbdc76a64",
+   "name": "A History of Utopia with Kim Stanley Robinson and Brian Eno",
    "categories": [
     "events"
    ],
-   "latitude": 51.754,
-   "longitude": -1.26035,
-   "summary": "Classical · New Theatre Oxford",
-   "details": "Door Time - 15:00 Show Time - 16:00",
-   "address": "George Street, OX1 2AG",
-   "website": "https://www.ticketmaster.co.uk/gareth-malone-singalongagareth-at-the-movies-oxford-22-11-2026/event/360064CAA3242BAB",
-   "when": "Sun 22 Nov · 16:00",
-   "startsAt": "2026-11-22T16:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/4bb/39420dde-7f07-4dbc-b826-91d5102094bb_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "New Theatre Oxford",
-   "source": "ticketmaster"
+   "latitude": 51.7608,
+   "longitude": -1.2626,
+   "summary": "Schwarzman Centre for the Humanities",
+   "details": "A History of Utopia with Kim Stanley Robinson and Brian Eno About A History of Utopia with Kim Stanley Robinson and Brian Eno What does it mean to build a liveable future – and who gets to imagine it? Since its creation by Thomas More in his 1516 work of political fiction, the concept of utopia has appeared throughout politics, philosophy and culture. In this unique collaboration as part of Oxford Ministry for the Future’s two-day takeover of the Schwarzman Centre, Brian Eno and Kim Stanley Robinson curate a journey through the history of utopian thought – from ancient philosophy to climate…",
+   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
+   "website": "https://theoxfordmagazine.com/event/a-history-of-utopia-with-kim-stanley-robinson-and-brian-eno/",
+   "when": "Mon 23 Nov · 19:00",
+   "startsAt": "2026-11-23T19:00:00Z",
+   "endsAt": "2026-11-23T20:30:00Z",
+   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/A-History-of-Utopia-with-Kim-Stanley-Robinson-and-Brian-Eno.webp",
+   "venue": "Schwarzman Centre for the Humanities",
+   "source": "The Oxford Magazine"
   },
   {
    "id": "ev-c1a377090986",
@@ -346,6 +347,24 @@
    "source": "ticketmaster"
   },
   {
+   "id": "ev-9dab8b705f99",
+   "name": "Joanne McNally: Pinotphile",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.754,
+   "longitude": -1.26035,
+   "summary": "Comedy · New Theatre Oxford",
+   "details": "Live at New Theatre Oxford.",
+   "address": "George Street, OX1 2AG",
+   "website": "https://www.ticketmaster.co.uk/joanne-mcnally-pinotphile-oxford-14-01-2027/event/3600655CE4E0BB05",
+   "when": "Thu 14 Jan · 20:00",
+   "startsAt": "2027-01-14T20:00:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/863/b9dd9303-0861-4c21-908a-d735217fd863_SOURCE",
+   "venue": "New Theatre Oxford",
+   "source": "ticketmaster"
+  },
+  {
    "id": "ev-196c079de507",
    "name": "Skids + Theatre Of Hate",
    "categories": [
@@ -379,6 +398,24 @@
    "startsAt": "2026-12-08T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/de6/8d25248c-fe38-4cba-8cf3-63f37f852de6_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "The Bullingdon ",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-825b60b22718",
+   "name": "Josh Pugh: Ha Ha Yeah Sound",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.753229,
+   "longitude": -1.266159,
+   "summary": "Comedy · Glee Club Oxford",
+   "details": "Show Doors:18:45 Last Entry: 19:15 Show Start:19:30",
+   "address": "The Bullingdon 162 Cowley Rd, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/josh-pugh-ha-ha-yeah-sound-oxford-21-01-2027/event/1F00655CF77A7BBF",
+   "when": "Thu 21 Jan · 19:15",
+   "startsAt": "2027-01-21T19:15:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/a/8e2/d89cf940-721b-4281-a1ce-4708d02578e2_SOURCE",
+   "venue": "Glee Club Oxford",
    "source": "ticketmaster"
   }
  ]
