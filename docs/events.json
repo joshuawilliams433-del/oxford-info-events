@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-23T15:56:03Z",
- "count": 23,
+ "updated": "2026-11-24T15:51:46Z",
+ "count": 22,
  "events": [
   {
    "id": "evensong",
@@ -19,25 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-591bbdc76a64",
-   "name": "A History of Utopia with Kim Stanley Robinson and Brian Eno",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.7608,
-   "longitude": -1.2626,
-   "summary": "Schwarzman Centre for the Humanities",
-   "details": "A History of Utopia with Kim Stanley Robinson and Brian Eno About A History of Utopia with Kim Stanley Robinson and Brian Eno What does it mean to build a liveable future – and who gets to imagine it? Since its creation by Thomas More in his 1516 work of political fiction, the concept of utopia has appeared throughout politics, philosophy and culture. In this unique collaboration as part of Oxford Ministry for the Future’s two-day takeover of the Schwarzman Centre, Brian Eno and Kim Stanley Robinson curate a journey through the history of utopian thought – from ancient philosophy to climate…",
-   "address": "Schwarzman Centre for the Humanities, Radcliffe Observatory Quarter, Woodstock Road, Oxford, OX2 6GG",
-   "website": "https://theoxfordmagazine.com/event/a-history-of-utopia-with-kim-stanley-robinson-and-brian-eno/",
-   "when": "Mon 23 Nov · 19:00",
-   "startsAt": "2026-11-23T19:00:00Z",
-   "endsAt": "2026-11-23T20:30:00Z",
-   "imageURL": "https://theoxfordmagazine.com/wp-content/uploads/A-History-of-Utopia-with-Kim-Stanley-Robinson-and-Brian-Eno.webp",
-   "venue": "Schwarzman Centre for the Humanities",
-   "source": "The Oxford Magazine"
   },
   {
    "id": "ev-c1a377090986",
