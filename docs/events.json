@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T15:08:47Z",
- "count": 22,
+ "updated": "2026-11-27T15:01:32Z",
+ "count": 21,
  "events": [
   {
    "id": "evensong",
@@ -19,24 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-c1a377090986",
-   "name": "Skids + Theatre Of Hate",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.753554,
-   "longitude": -1.262474,
-   "summary": "Rock · Old Fire Station",
-   "details": "Two era defining artists SKIDS &amp; THEATRE OF HATE come together this autumn for an explosive UK co-headline tour.SKIDSThe Skids formed in 1977 in their hometown of Dunfermline, Scotland by Richard Jobson, Stuart Adamson, Bill Simpson &amp; Tom Kellichan. After releasing an independent single the band were played by John Peel, supported The Clash in concert and then were signed to Virgin Records in 1978. Their first singles were \"Sweet Surburbia\", \"The Saints are Coming\" and \"Into the Valley\" - the latter reaching the UK Top Ten in early 1979.The current Skids line up see's the lineup…",
-   "address": "40 George Street, OX1 2AQ",
-   "website": "https://www.universe.com/events/skids-theatre-of-hate-tickets-15DFQR?ref=ticketmaster",
-   "when": "Thu 26 Nov · 19:00",
-   "startsAt": "2026-11-26T19:00:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "venue": "Old Fire Station",
-   "source": "ticketmaster"
   },
   {
    "id": "ev-05b1bc91eb1b",
@@ -328,7 +310,7 @@
    "source": "ticketmaster"
   },
   {
-   "id": "ev-9dab8b705f99",
+   "id": "ev-63af0f5bf1f2",
    "name": "Joanne McNally: Pinotphile",
    "categories": [
     "events"
@@ -338,9 +320,10 @@
    "summary": "Comedy · New Theatre Oxford",
    "details": "Live at New Theatre Oxford.",
    "address": "George Street, OX1 2AG",
-   "website": "https://www.ticketmaster.co.uk/joanne-mcnally-pinotphile-oxford-14-01-2027/event/3600655CE4E0BB05",
-   "when": "Thu 14 Jan · 20:00",
-   "startsAt": "2027-01-14T20:00:00Z",
+   "website": "https://www.ticketmaster.co.uk/joanne-mcnally-pinotphile-oxford-13-01-2027/event/3600655C947442C5",
+   "when": "Wed 13 Jan · 20:00",
+   "startsAt": "2027-01-13T20:00:00Z",
+   "endsAt": "2027-01-14T20:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/863/b9dd9303-0861-4c21-908a-d735217fd863_SOURCE",
    "venue": "New Theatre Oxford",
    "source": "ticketmaster"
