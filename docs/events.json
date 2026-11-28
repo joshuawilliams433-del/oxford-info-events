@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:01:32Z",
+ "updated": "2026-11-28T14:09:42Z",
  "count": 21,
  "events": [
   {
@@ -19,24 +19,6 @@
    "when": "Most evenings — check times",
    "venue": "Christ Church Cathedral",
    "source": "curated"
-  },
-  {
-   "id": "ev-05b1bc91eb1b",
-   "name": "Big Country + Evan Peter's Alarm",
-   "categories": [
-    "events"
-   ],
-   "latitude": 51.747068,
-   "longitude": -1.235117,
-   "summary": "Rock · O2 Academy Oxford",
-   "details": "Security - Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag - and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
-   "address": "190 Cowley Road, OX4 1UE",
-   "website": "https://www.ticketmaster.co.uk/big-country-evan-peters-alarm-oxford-27-11-2026/event/3E0064ABCBD337C7",
-   "when": "Fri 27 Nov · 18:30",
-   "startsAt": "2026-11-27T18:30:00Z",
-   "imageURL": "https://s1.ticketm.net/dam/a/959/a6236c28-2b82-4439-a91b-9e751764f959_SOURCE",
-   "venue": "O2 Academy Oxford",
-   "source": "ticketmaster"
   },
   {
    "id": "ev-de5b84b8fe62",
@@ -180,6 +162,24 @@
    "when": "Tue 15 Dec · 19:00",
    "startsAt": "2026-12-15T19:00:00Z",
    "imageURL": "https://s1.ticketm.net/dam/a/270/0b11572c-e377-4caf-96dd-51b83b6c6270_SOURCE",
+   "venue": "O2 Academy Oxford",
+   "source": "ticketmaster"
+  },
+  {
+   "id": "ev-1de4cf64a154",
+   "name": "Ogrepalooza with the Ogretones: the Uk's #1 Shrek Tribute Band",
+   "categories": [
+    "events"
+   ],
+   "latitude": 51.747068,
+   "longitude": -1.235117,
+   "summary": "O2 Academy Oxford",
+   "details": "Security -- Bag Policy: Large bags including rucksacks are not allowed. There are no facilities to leave large bags or luggage. If you really have to bring a bag -- and it's preferable you don't, please make sure it's small. Only one small bag per person is permitted and it must not be bigger than A4 size. Height: 28.7cm Width: 21cm Depth 15cm",
+   "address": "190 Cowley Road, OX4 1UE",
+   "website": "https://www.ticketmaster.co.uk/ogrepalooza-with-the-ogretones-the-uks-oxford-18-12-2026/event/3E0064AEC6193556",
+   "when": "Fri 18 Dec · 18:30",
+   "startsAt": "2026-12-18T18:30:00Z",
+   "imageURL": "https://s1.ticketm.net/dam/c/ab4/6367448e-7474-4650-bd2d-02a8f7166ab4_106161_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "venue": "O2 Academy Oxford",
    "source": "ticketmaster"
   },
